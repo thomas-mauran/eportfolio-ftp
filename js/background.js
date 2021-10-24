@@ -1,6 +1,7 @@
 circleList = []
 let circleNumber = 19
 
+
 function setup(){
     createCanvas(windowWidth,windowHeight)
     circleCenter = new Circle(windowWidth/2, windowHeight/2)

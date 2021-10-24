@@ -28,6 +28,7 @@ class Circle{
   
   
       this.c = 255
+
   
       this.c1 = 255
       this.c2 = 255
