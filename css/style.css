@@ -1,0 +1,29 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+
+}
+
+#main{
+    z-index: 2;
+    position: absolute;
+    color: aliceblue;
+
+
+}
+
+#canvasForHTML{
+    z-index: 1;
+    position: absolute;
+}
+
+#container{
+    position: relative;
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+
+
+}
