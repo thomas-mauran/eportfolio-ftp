@@ -15,7 +15,9 @@
     <div class = "centeredMain">
 
         <div class = "block">
-            <h1>Mes projets</h1>
+            <div class = "titre">
+                <h1>Mes projets</h1>
+            </div>
             <div class = "description">
                 <p>Bienvenue sur la page projet</p>
                 <p>Je regroupe ici tout les projets que j'ai pu réaliser au cours des dernieres années.</p>
@@ -34,7 +36,7 @@
                         <div class = "description">
                             <h2>We discuss</h2>
                             <div class = "imageLien">
-                                <a href="index.php">
+                                <a href="/viewProjets/view.php">
                                     <img src="images/wediscuss.png" alt="wediscuss image">
                                 </a>
                             </div>
@@ -48,7 +50,7 @@
 
                             <div class = "imageLien">
                                 <a href="index.php">
-                                    <img src="images/NDL.png" alt="wediscuss image">
+                                    <img src="images/NDL2021.png" alt="Nuit de l'info image">
                                 </a>
                             </div>
                         </div>
@@ -255,6 +257,9 @@
 
 
     </div>
+
+    <?php include ('includes/footer.php')?>
+
 
 </body>
 </html>

@@ -1,7 +1,11 @@
+
+
 .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-direction: row;    
     margin-top: 5%;
+    width: 100%;
 }
 
 .texte{
@@ -9,11 +13,41 @@
 }
 
 .titre{
+    text-align: center;
     margin-bottom: 4%;
 }
 
 .box{
     
-    width: 40%;
+    width: 40%
 }
+
+#boxImage{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.line{
+    margin-top: 10%;
+    display: flex;
+    height: 7%;
+    justify-content: center;
+}
+
+.liens{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.liens p{
+    margin-top: 5%;
+}
+
+.imgLiens{
+    height: 90%;
+}
+
+
 

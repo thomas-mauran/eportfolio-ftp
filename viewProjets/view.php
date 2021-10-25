@@ -19,12 +19,33 @@
                 </div>
                 <div class = "description">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati delectus consequatur dolor repudiandae impedit aliquid libero autem ad ab. Quas provident sed, ducimus voluptatum pariatur incidunt? Ut dignissimos cum ipsum!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati delectus consequatur dolor repudiandae impedit aliquid libero autem ad ab. Quas provident sed, ducimus voluptatum pariatur incidunt? Ut dignissimos cum ipsum!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati delectus consequatur dolor repudiandae impedit aliquid libero autem ad ab. Quas provident sed, ducimus voluptatum pariatur incidunt? Ut dignissimos cum ipsum!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati delectus consequatur dolor repudiandae impedit aliquid libero autem ad ab. Quas provident sed, ducimus voluptatum pariatur incidunt? Ut dignissimos cum ipsum!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati delectus consequatur dolor repudiandae impedit aliquid libero autem ad ab. Quas provident sed, ducimus voluptatum pariatur incidunt? Ut dignissimos cum ipsum!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati delectus consequatur dolor repudiandae impedit aliquid libero autem ad ab. Quas provident sed, ducimus voluptatum pariatur incidunt? Ut dignissimos cum ipsum!</p>
+
                 </div>
             </div>
+
         </div>
 
-        <div class = "box">
+        <div class = "box" id="boxImage">
             <img src="/images/NDL.png" alt="test">
+
+            <div class ="line">
+                <div class = "liens">
+                    <a href="https://github.com"><img class="imgLiens" src="/images/logoGithub.png" alt="logo github"></a>
+                    <p>Lien github</p>
+
+                </div>
+
+                <div class = "liens">
+                    <a href="https://github.com"><img class="imgLiens" src="/images/liveCode.png" alt="logo live code"></a>
+                    <p>Lien live</p>
+
+            </div>
+            </div>
         </div>
     </div>
 </body>

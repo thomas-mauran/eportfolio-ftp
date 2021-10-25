@@ -43,3 +43,11 @@ body{
 
 }
 
+footer{
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+footer p{
+    margin-top: 1%;
+}
