@@ -27,7 +27,7 @@ class Circle{
       this.rayon = this.diameter/2
   
   
-      this.c = 255
+      this.c = 226
 
   
       this.c1 = 255

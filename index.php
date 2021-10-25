@@ -14,11 +14,11 @@
 <body>
     <div id = "container">
         <div id = "canvasForHTML">
-
+        <!-- penser a enlever le scroll-->
         </div>
 
         <div id="main">
-            <h1>test</h1>
+            <h1>Welcome back</h1>
         </div>
     </div>
 

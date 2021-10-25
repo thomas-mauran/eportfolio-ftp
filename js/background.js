@@ -5,7 +5,7 @@ let circleNumber = 19
 function setup(){
     createCanvas(windowWidth,windowHeight)
     circleCenter = new Circle(windowWidth/2, windowHeight/2)
-    circleList.push(circleCenter)
+    circleList.push(circleCenter)   
     for (i = 0; i < circleNumber; i ++){
       circle = new Circle()
       circleList.push(circle)
@@ -16,7 +16,7 @@ function setup(){
 }
 
 function draw() {
-  background(10)
+  background('#041A25')
 
   for (i = 0; i < circleList.length; i ++){
     circleList[i].show()
