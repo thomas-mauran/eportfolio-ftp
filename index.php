@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <script src="libraries/p5.js" type="text/javascript"></script>
 
-    <script src="js/background.js" type="text/javascript"></script>
-    <script src="js/circle.js" type="text/javascript"></script>
+    <script src="/js/background.js" type="text/javascript"></script>
+    <script src="/js/circle.js" type="text/javascript"></script>
 
     <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/navBar.css" rel="stylesheet" type="text/css">
 
     <title>Accueil</title>
 </head>
 <body>
+    <?php include ('includes/nav.php')?>
     <div id = "container">
         <div id = "canvasForHTML">
         <!-- penser a enlever le scroll-->

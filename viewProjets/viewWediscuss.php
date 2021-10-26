@@ -3,7 +3,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Projets</title>
+    <title>We discuss</title>
     <link href="/css/navBar.css" rel="stylesheet" type="text/css">
     <link href="/css/style.css" rel="stylesheet" type="text/css">
     <link href="/css/viewProjets.css" rel="stylesheet" type="text/css">
@@ -34,7 +34,7 @@
 
             <div class ="line">
                 <div class = "liens">
-                    <a href="https://github.com"><img class="imgLiens" src="/images/logoGithub.png" alt="logo github"></a>
+                    <a href="https://github.com/clement-gambier2/wediscuss_"><img class="imgLiens" src="/images/logoGithub.png" alt="logo github"></a>
                     <p>Lien github</p>
 
                 </div>

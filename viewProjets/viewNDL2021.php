@@ -3,7 +3,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Projets</title>
+    <title>Nuit de l'info 2021</title>
     <link href="/css/navBar.css" rel="stylesheet" type="text/css">
     <link href="/css/style.css" rel="stylesheet" type="text/css">
     <link href="/css/viewProjets.css" rel="stylesheet" type="text/css">
@@ -16,7 +16,7 @@
         <div class = "box">
             <div class = "texte">
                 <div class = "titre">
-                    <h1>wediscuss</h1>
+                    <h1>Nuit de l'info 2021</h1>
                 </div>
                 <div class = "description">
                     <p>
@@ -30,7 +30,7 @@
         </div>
 
         <div class = "box" id="boxImage">
-            <img src="/images/wediscuss.png" alt="test">
+            <img src="/images/NDL2021.png" alt="test">
 
             <div class ="line">
                 <div class = "liens">

@@ -5,14 +5,21 @@
     <meta charset="UTF-8">
     <title>Projets</title>
     <link href="/css/navBar.css" rel="stylesheet" type="text/css">
-    <link href="/css/style.css" rel="stylesheet" type="text/css">
     <link href="/css/projets.css" rel="stylesheet" type="text/css">
+    <link href="/css/style.css" rel="stylesheet" type="text/css">
+
+    <script src="js/three.js"></script>
+
 
 </head>
 <body>
     <?php include ('./includes/nav.php')?>
 
+
+
     <div class = "centeredMain">
+        <canvas id="bg"></canvas>
+        <script src="js/threeJSViewProjets.js"></script>
 
         <div class = "block">
             <div class = "titre">
@@ -36,7 +43,7 @@
                         <div class = "description">
                             <h2>We discuss</h2>
                             <div class = "imageLien">
-                                <a href="/viewProjets/view.php">
+                                <a href="/viewProjets/viewWediscuss.php">
                                     <img src="images/wediscuss.png" alt="wediscuss image">
                                 </a>
                             </div>
@@ -49,7 +56,7 @@
                             <h2>Nuit de l'info</h2>
 
                             <div class = "imageLien">
-                                <a href="index.php">
+                                <a href="/viewProjets/viewNDL2021.php">
                                     <img src="images/NDL2021.png" alt="Nuit de l'info image">
                                 </a>
                             </div>
@@ -61,7 +68,7 @@
                             <h2>E-portfolio</h2>
 
                             <div class = "imageLien">
-                                <a href="index.php">
+                                <a href="/viewProjets/viewEportfolio.php">
                                     <img src="images/raspberry.png" alt="E-portfolio">
                                 </a>
                             </div>

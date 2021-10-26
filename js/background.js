@@ -16,7 +16,7 @@ function setup(){
 }
 
 function draw() {
-  background('#041A25')
+  background('#020E16')
 
   for (i = 0; i < circleList.length; i ++){
     circleList[i].show()
