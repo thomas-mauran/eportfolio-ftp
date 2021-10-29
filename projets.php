@@ -9,6 +9,7 @@
     <link href="/css/style.css" rel="stylesheet" type="text/css">
 
     <script src="js/three.js"></script>
+    <script src="js/jquery.js"></script>
 
 
 </head>
@@ -39,7 +40,7 @@
 
             <div class = "projetLine">
 
-                    <div class = "projet">
+                    <div class = "projet ">
                         <div class = "description">
                             <h2>We discuss</h2>
                             <div class = "imageLien">
@@ -51,7 +52,7 @@
                         </div>
                     </div>
     
-                    <div class = "projet">
+                    <div class = "projet ">
                         <div class = "description">
                             <h2>Nuit de l'info</h2>
 
@@ -63,7 +64,7 @@
                         </div>
                     </div>
 
-                    <div class = "projet">
+                    <div class = "projet ">
                         <div class = "description">
                             <h2>E-portfolio</h2>
 
@@ -79,7 +80,7 @@
                 </div>
 
                 <div class = "projetLine">
-                    <div class = "projet">
+                    <div class = "projet ">
                         <div class = "description">
                             <h2>Projet bang</h2>
                             <div class = "imageLien">
