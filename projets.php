@@ -114,7 +114,7 @@
 
                             <div class = "imageLien">
                                 <a href="/viewProjets/viewNDL2020.php">
-                                    <img src="images/NDL.png" alt="wediscuss image">
+                                    <img src="images/NDL2020.png" alt="wediscuss image">
                                 </a>
                             </div>
                         </div>
@@ -170,7 +170,7 @@
                         <div class = "description">
                             <h2>Bouncing balls</h2>
                             <div class = "imageLien">
-                                <a href="index.php">
+                                <a href="/viewProjets/viewBouncingBalls.php">
                                     <img src="images/bouncingBalls.png" alt="Bouncing balls">
                                 </a>
                             </div>
@@ -185,7 +185,7 @@
                         <div class = "description">
                             <h2>Solar system generator</h2>
                             <div class = "imageLien">
-                                <a href="index.php">
+                                <a href="/viewProjets/viewSolarSystem.php">
                                     <img src="images/solarSystem.png" alt="Solar System">
                                 </a>
                             </div>
@@ -197,7 +197,7 @@
                         <div class = "description">
                             <h2>Bouncing lines</h2>
                             <div class = "imageLien">
-                                <a href="index.php">
+                                <a href="/viewProjets/viewBouncingLines.php">
                                     <img src="images/bouncingLines.png" alt="Bouncing lines">
                                 </a>
                             </div>
@@ -207,25 +207,17 @@
 
                 <div class = "projet">
                         <div class = "description">
-                            <h2>Rotating lines</h2>
+                            <h2>Linked dots</h2>
                             <div class = "imageLien">
                                 <a href="index.php">
-                                    <img src="images/rotatingLines.png" alt="Rotating lines">
+                                    <img src="images/linkedLines.png" alt="linked lines">
                                 </a>
                             </div>
 
                         </div>
                 </div>
-
-                
-
-
-
             </div>
-
-
-
-            
+      
         </div>
 
         <div class = "block">

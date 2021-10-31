@@ -1,14 +1,15 @@
 
 // var url1 = "http://api.open-notify.org/iss-now.json"
 var url1 = "https://api.wheretheiss.at/v1/satellites/25544"
-var url2 = "http://api.open-notify.org/astros.json"
+var url2 = "https://api.open-notify.org/astros.json"
 var espacement = 17
 var issX, issY
 var issData
-var astroData
-var numberOfPeopleInSpace
+var astroData = true
+var numberOfPeopleInSpace = 10
 var altitude
 var speed
+
 
 function preload(){
   issImage = loadImage('./imagesISS/satellite.png')
@@ -28,7 +29,6 @@ function setup() {
 
   // Api Load
   data = loadJSON(url1, getData)
-  data1 = loadJSON(url2,getData1)
 
   // Api live reload
   setInterval(newCoord, 2000)
@@ -74,10 +74,7 @@ function getData(data){
   speed = int(data.velocity)
 
 }
-function getData1(data1){
-  astroData = data1
-  numberOfPeopleInSpace = data1.number
-}
+
 
 // Update of the map and paragraphs
 function draw() {
