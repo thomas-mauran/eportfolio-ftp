@@ -47,10 +47,8 @@
 
                 function changeImg(add = 0){
 
-                    console.log(i)
                     if(i == imageList.length-1 && add == 1){
                         i = 0
-                        console.log("test")
                     }
                     else if(i == 0 && add == -1){
                         i = imageList.length-1
@@ -86,7 +84,7 @@
                     <a target="_blank" rel="noopener noreferrer" href="https://clement-gambier.fr/projets/wediscuss/index.php"><img class="imgLiens" src="/images/liveCode.png" alt="logo live code"></a>
                     <p>Lien live</p>
 
-            </div>
+                </div>
             </div>
         </div>
     </div>

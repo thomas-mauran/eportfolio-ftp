@@ -3,7 +3,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>E-portfolio</title>
+    <title>Iss locator</title>
     <link href="/css/navBar.css" rel="stylesheet" type="text/css">
     <link href="/css/style.css" rel="stylesheet" type="text/css">
     <link href="/css/viewProjets.css" rel="stylesheet" type="text/css">
@@ -16,7 +16,7 @@
         <div class = "box">
             <div class = "texte">
                 <div class = "titre">
-                    <h1>E-portfolio</h1>
+                    <h1>Iss sur carte</h1>
                 </div>
                 <div class = "description">
                     <p>
@@ -30,7 +30,7 @@
         </div>
 
         <div class = "box" id="boxImage">
-            <img id = "imageSlide" alt="test">
+            <img id = "imageSlide" alt="image slider">
             <script> 
                 var i = 0;
                 var imageList = [];
@@ -38,8 +38,9 @@
 
 
                 // Liste d'images
-                imageList[0] = '../images/raspberry.png'
-                imageList[1] = '../images/raspberry2.jpg'
+                imageList[0] = '../images/iss.png'
+                imageList[1] = '../images/iss3.png'
+                imageList[2] = '../images/iss2.png'
 
                 function changeImg(add = 0){
 
@@ -71,16 +72,16 @@
 
             <div class ="line">
                 <div class = "liens">
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/thomas-mauran/eportfolio-ftp"><img class="imgLiens" src="/images/logoGithub.png" alt="logo github"></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/IUTInfoMontp-M2105/projetihm-besse-gambier-lefort-mauran"><img class="imgLiens" src="/images/logoGithub.png" alt="logo github"></a>
                     <p>Lien github</p>
 
                 </div>
 
                 <div class = "liens">
-                    <a target="_blank" rel="noopener noreferrer" href="https://thomasprojects.works/"><img class="imgLiens" src="/images/liveCode.png" alt="logo live code"></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://thomasprojects.works/projetsFiles/ISS/"><img class="imgLiens" src="/images/liveCode.png" alt="logo live code"></a>
                     <p>Lien live</p>
 
-            </div>
+                </div>
 
             
             </div>

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Sarabun');
+
+
+
+*{
+  font-family: 'Sarabun', sans-serif;
+}
+
+body, html{
+  background-color: grey;
+}
+
+#backgroundImage{
+  width: 1080px;
+  height: 610px;
+
+}
+
+header{
+  background-color: white;
+  padding: 100;
+  width: 100%;
+  box-shadow: 0px 0px 20px rgb(0, 0, 0, 1);
+}
+
+#title{
+  background-color: white;
+  display: flex;
+  height: 60px;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  vertical-align: top;
+  justify-content: center;
+}
+
+p{
+  font-size: 20px;
+}

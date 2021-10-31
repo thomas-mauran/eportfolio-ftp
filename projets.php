@@ -84,7 +84,7 @@
                         <div class = "description">
                             <h2>Projet bang</h2>
                             <div class = "imageLien">
-                                <a href="index.php">
+                                <a href="/viewProjets/viewBang.php">
                                     <img src="images/bang.jpeg" alt="Projet bang">
                                 </a>
                             </div>
@@ -113,7 +113,7 @@
                             <h2>Nuit de l'info</h2>
 
                             <div class = "imageLien">
-                                <a href="index.php">
+                                <a href="/viewProjets/viewNDL2020.php">
                                     <img src="images/NDL.png" alt="wediscuss image">
                                 </a>
                             </div>
@@ -145,7 +145,7 @@
                         <div class = "description">
                             <h2>Fractal tree</h2>
                             <div class = "imageLien">
-                                <a href="index.php">
+                                <a href="/viewProjets/viewFractalTree.php">
                                     <img src="images/fractalTree.png" alt="Fractal trees">
                                 </a>
                             </div>
@@ -157,7 +157,7 @@
                         <div class = "description">
                             <h2>ISS locator</h2>
                             <div class = "imageLien">
-                                <a href="index.php">
+                                <a href="/viewProjets/viewISS.php">
                                     <img src="images/iss.png" alt="Projet bang">
                                 </a>
                             </div>
