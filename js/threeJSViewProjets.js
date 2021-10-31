@@ -63,16 +63,17 @@
   // fonction pour savoir si on scroll down ou up 
   var lastScrollTop = 0;
   var scrollDirection = 0;
-  window.addEventListener('scroll', function(){ // or window.addEventListener("scroll"....
+
+  function scrollDirectionFunction(){ // or window.addEventListener("scroll"....
     var st = window.pageYOffset || document.documentElement.scrollTop; // Credits: "https://github.com/qeremy/so/blob/master/so.dom.js#L426"
     if (st > lastScrollTop){
         scrollDirection = -1
     } else {
         scrollDirection = 1
-
     }
     lastScrollTop = st <= 0 ? 0 : st; // For Mobile or negative scrolling
- }, false);
+ }
+  window.addEventListener('scroll', scrollDirectionFunction, false);
 
 
   // Fonction qui va s'activer a chaque fois qu'on scroll
@@ -91,8 +92,6 @@
     objet1.position.y += scrollDirection/10
 
 
-
-    console.log(objet1.scale.x)
 
     objet2.rotation.x += t/1000*0.05*scrollDirection;
 
@@ -131,6 +130,7 @@
 
     objet3.rotation.y += -0.003
 
+    resize()
   }
 
 
@@ -156,3 +156,11 @@
     });
   }).scroll(); //invoke scroll-handler on page-load
 });
+function resize () {
+    renderer.width = container.clientWidth;
+    renderer.height = container.clientHeight;
+    renderer.setSize(renderer.width, renderer.height);
+    camera.aspect = renderer.width / renderer.height;
+    camera.updateProjectionMatrix();
+  }
+
