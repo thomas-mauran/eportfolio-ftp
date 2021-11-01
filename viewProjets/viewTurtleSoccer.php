@@ -3,7 +3,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Solar system generator</title>
+    <title>Turle soccer</title>
     <link href="/css/navBar.css" rel="stylesheet" type="text/css">
     <link href="/css/style.css" rel="stylesheet" type="text/css">
     <link href="/css/viewProjets.css" rel="stylesheet" type="text/css">
@@ -16,7 +16,7 @@
         <div class = "box">
             <div class = "texte">
                 <div class = "titre">
-                    <h1>Generateur de système solaires</h1>
+                    <h1>Turtle soccer</h1>
                 </div>
                 <div class = "description">
                     <p>
@@ -38,9 +38,9 @@
 
 
                 // Liste d'images
-                imageList[0] = '../images/solarSystem.png'
-                imageList[1] = '../images/solarSystem2.png'
-                imageList[2] = '../images/solarSystem3.png'
+                imageList[0] = '../images/turtleSoccer.png'
+                imageList[1] = '../images/turtleSoccer2.png'
+                imageList[2] = '../images/turtleSoccer3.png'
 
                 function changeImg(add = 0){
 
@@ -72,15 +72,8 @@
 
             <div class ="line">
                 <div class = "liens">
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/thomas-mauran/solarSystemGenerator"><img class="imgLiens" src="/images/logoGithub.png" alt="logo github"></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/thomas-mauran/turtleSoccer"><img class="imgLiens" src="/images/logoGithub.png" alt="logo github"></a>
                     <p>Lien github</p>
-
-                </div>
-
-                <div class = "liens">
-                    <a target="_blank" rel="noopener noreferrer" href="https://thomasprojects.works/projetsFiles/solarSystemGenerator/"><img class="imgLiens" src="/images/liveCode.png" alt="logo live code"></a>
-                    <p>Lien live</p>
-
                 </div>
 
             

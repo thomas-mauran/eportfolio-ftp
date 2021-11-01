@@ -28,8 +28,8 @@
             </div>
             <div class = "description">
                 <p>Bienvenue sur la page projet</p>
-                <p>Je regroupe ici tout les projets que j'ai pu réaliser au cours des dernieres années.</p>
-                <p>Ces projets ont pu être réalisé dans le cadre de ma formation a l'iut ou en autodidacte</p>
+                <p>Je regroupe ici tous les projets que j'ai pu réaliser au cours des dernières années.</p>
+                <p>Ces projets ont pu être réalisés dans le cadre de ma formation à l'iut ou en autodidacte</p>
 
             </div>
         </div>
@@ -207,13 +207,12 @@
 
                 <div class = "projet">
                         <div class = "description">
-                            <h2>Linked dots</h2>
+                            <h2>Links</h2>
                             <div class = "imageLien">
-                                <a href="index.php">
+                                <a href="/viewProjets/viewLinks.php">
                                     <img src="images/linkedLines.png" alt="linked lines">
                                 </a>
                             </div>
-
                         </div>
                 </div>
             </div>
@@ -228,7 +227,7 @@
                         <div class = "description">
                             <h2>Turtle Soccer</h2>
                             <div class = "imageLien">
-                                <a href="index.php">
+                                <a href="/viewProjets/viewTurtleSoccer.php">
                                     <img src="images/turtleSoccer.png" alt="Turtle soccer">
                                 </a>
                             </div>
@@ -240,7 +239,7 @@
                         <div class = "description">
                             <h2>Pong</h2>
                             <div class = "imageLien">
-                                <a href="index.php">
+                                <a href="/viewProjets/viewPong.php">
                                     <img src="images/Pong.png" alt="Pong">
                                 </a>
                             </div>

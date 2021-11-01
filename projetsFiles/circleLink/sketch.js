@@ -1,8 +1,10 @@
 circleList = []
 let circleNumber = 20
 
+
 function setup(){
     createCanvas(windowWidth,windowHeight)
+    
     for (i = 0; i < circleNumber; i ++){
       circle = new Circle()
       circleList.push(circle)
@@ -13,9 +15,9 @@ function setup(){
 }
 
 function draw() {
-  background(30)
+  background('#020E16')
 
-  for (i = 0; i < circleNumber; i ++){
+  for (i = 0; i < circleList.length; i ++){
     circleList[i].show()
     circleList[i].move()
 

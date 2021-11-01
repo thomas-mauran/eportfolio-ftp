@@ -72,7 +72,7 @@
 
             <div class ="line">
                 <div class = "liens">
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/IUTInfoMontp-M2105/projetihm-besse-gambier-lefort-mauran"><img class="imgLiens" src="/images/logoGithub.png" alt="logo github"></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/thomas-mauran/ISS"><img class="imgLiens" src="/images/logoGithub.png" alt="logo github"></a>
                     <p>Lien github</p>
 
                 </div>
