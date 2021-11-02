@@ -240,7 +240,7 @@
                             <h2>Pong</h2>
                             <div class = "imageLien">
                                 <a href="/viewProjets/viewPong.php">
-                                    <img src="images/Pong.png" alt="Pong">
+                                    <img src="images/pong.png" alt="Pong">
                                 </a>
                             </div>
 
