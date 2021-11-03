@@ -82,7 +82,8 @@ function scalePercent(start, end) {
 // Pour avoir le % de la page qui a été scroll
 
 var scrollPercent = 0;
-
+var scrollDirection = 1
+var lastScrollTop = 0;
 function scrollPercentFunction(){
     scrollPercent =
         ((document.documentElement.scrollTop || document.body.scrollTop) /
@@ -90,9 +91,15 @@ function scrollPercentFunction(){
                 document.body.scrollHeight) -
                 document.documentElement.clientHeight)) *
         100
-
+    
+    var st = window.pageYOffset || document.documentElement.scrollTop; // Credits: "https://github.com/qeremy/so/blob/master/so.dom.js#L426"
+    if (st > lastScrollTop){
+        scrollDirection = -1
+    } else {
+        scrollDirection = 1
+    }
+    lastScrollTop = st <= 0 ? 0 : st; // For Mobile or negative scrolling}
 }
-
 
 //calculate the current scroll progress as a percentage
 window.addEventListener('scroll', scrollPercentFunction, false);
@@ -113,16 +120,21 @@ animationScriptsList.push({
     },
 })
 
-var increase = 1
+var increase = -1
+
 animationScriptsList.push({
     'start': 0,
     'end': 100,
     'func': function() {
 
+        console.log(scrollDirection)
+        console.log(scrollPercent)
+
+        
         if(plan.position.z == -size*150 || plan.position.z == size*50){
-            increase *= -1
+            scrollDirection *= -1
         }
-        plan.position.z -= increase
+        plan.position.z += scrollDirection
 
     },
 })
