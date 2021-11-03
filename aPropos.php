@@ -12,6 +12,9 @@
     <script src="js/three.js"></script>
     <script src="js/jquery.js"></script>
 
+    <script src="libraries/p5.js" type="text/javascript"></script>
+
+
     
 </head>
 <body>

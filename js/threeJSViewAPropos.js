@@ -1,3 +1,4 @@
+
 // On setup les constante genre camera scene et render qui vont nous permettre d'animer la scene 
  
 const scene = new THREE.Scene();
@@ -18,26 +19,49 @@ function initThree(){
     renderer.setClearColor( 0x000000, 0 )
     renderer.setPixelRatio(window.devicePixelRatio);
     renderer.setSize( window.innerWidth, window.innerHeight );
-    camera.position.z = 50;
     renderer.render( scene, camera );
 }
 
+// FONCTION Random
 
+function randomInteger(min, max) {
+    return Math.random() * (max - min) + min;
+  }
 // DEFINITIONS DES OBJETS
 
-const size = 100;
-const divisions = 10
+const size = 10;
+const divisions = size*5
 
-const geometry1 = new THREE.PlaneGeometry(size, size, divisions, divisions);
-const material1 = new THREE.MeshBasicMaterial( {color: 0xFFFFFF, wireframe: true, side: THREE.DoubleSide} );
-const plan = new THREE.Mesh(geometry1, material1)
-
-plan.position.set(0, 0.5, -10)
-
-scene.add(plan)
+var minHeight = -4
+var maxHeight = 0
 
 
+var geometry = new THREE.PlaneBufferGeometry(size, size*2, divisions, divisions)
 
+/* Wireframe */
+var material	= new THREE.MeshBasicMaterial({
+    wireframe: true
+});
+var plan = new THREE.Mesh(geometry, material );
+
+scene.add(plan);
+
+
+const number = geometry.attributes.position.count
+
+for(var i = 0; i < number; i +=1){
+    var randomZ = randomInteger(minHeight, maxHeight)
+    geometry.attributes.position.setZ(i, randomZ)
+}
+    
+
+
+plan.lookAt(new THREE.Vector3(0,15,0));
+/* Terrain */
+plan.scale.y	= 2.5;
+plan.scale.x	= 5;
+plan.scale.z	= 0.30;
+plan.scale.multiplyScalar(50);
 
 
 
@@ -79,12 +103,40 @@ var animationScriptsList = []
 
 
 animationScriptsList.push({
-    'start': 20,
-    'end': 40,
+    'start': 0,
+    'end': 30,
     'func': function() {
-        camera.position.z = lerp(-10, 0, scalePercent(20, 40))
+        camera.position.set(0, 10, -500)
+        camera.position.y = lerp(300, 0, scalePercent(0, 30))
+        camera.rotation.x = lerp(-2, -0.3, scalePercent(0, 30))
+
     },
 })
+
+var increase = 1
+animationScriptsList.push({
+    'start': 0,
+    'end': 100,
+    'func': function() {
+
+        if(plan.position.z == -size*150 || plan.position.z == size*50){
+            increase *= -1
+        }
+        plan.position.z -= increase
+
+    },
+})
+
+animationScriptsList.push({
+    'start': 0,
+    'end': 100,
+    'func': function() {
+        camera.position.z = lerp(-1000, 0, scalePercent(0, 100))
+
+    },
+})
+
+
 
 
 
@@ -107,13 +159,12 @@ function init () {
 
 init()
 function animate(){
-    
+
     // On demande d'appeller animate depuis animate
     playScrollAnimations()
     requestAnimationFrame( animate );
     renderer.render( scene, camera );
-
-
+    geometry.attributes.position.needsUpdate = true
 }
 // On appelle animate
 window.scrollTo({ top: 0, behavior: 'smooth' })
