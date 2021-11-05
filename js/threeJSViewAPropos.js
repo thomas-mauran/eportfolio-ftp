@@ -94,9 +94,9 @@ function scrollPercentFunction(){
     
     var st = window.pageYOffset || document.documentElement.scrollTop; // Credits: "https://github.com/qeremy/so/blob/master/so.dom.js#L426"
     if (st > lastScrollTop){
-        scrollDirection = -0.6
+        scrollDirection = -0.4
     } else {
-        scrollDirection = 0.6
+        scrollDirection = 0.4
     }
     lastScrollTop = st <= 0 ? 0 : st; // For Mobile or negative scrolling}
 }

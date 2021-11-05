@@ -49,7 +49,7 @@ const objet2 = new THREE.Mesh(geometry2, material2)
 
 // On le place dans la scène
 
-if(window.innerWidth < 800){
+if(window.innerWidth < 1000){
     objet2.position.x = 7;
 }
 else{
@@ -60,7 +60,7 @@ objet2.position.y = -window.innerHeight/15;
 
 
 if(heightOfPage < 30){
-    objet2.position.y *= 2;
+    objet2.position.y *= 1.5;
 }
 
 
@@ -80,7 +80,7 @@ const objet3 = new THREE.Mesh(geometry3, material3)
 
 // On le place
 
-if(window.innerWidth < 800){
+if(window.innerWidth < 1000){
     objet3.position.x = -10;
 }
 else{
@@ -91,7 +91,7 @@ else{
 objet3.position.y = -window.innerHeight/8;
 
 if(heightOfPage < 30){
-    objet3.position.y *= 2;
+    objet3.position.y *= 1.5;
 }
 
 objet3.scale.multiplyScalar(1.3)
@@ -107,7 +107,7 @@ const objet4 = new THREE.Mesh(geometry4, material4)
 
 // On le place
 
-if(window.innerWidth < 800){
+if(window.innerWidth < 1000){
     objet4.position.x = 12;
 }
 else{
