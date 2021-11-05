@@ -6,6 +6,7 @@ const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.inner
 
 const renderer = new THREE.WebGLRenderer({canvas: document.querySelector('#bg'), alpha: true});
 
+const heightOfPage = document.body.clientHeight
 
 
 
@@ -23,7 +24,18 @@ const material1 = new THREE.MeshBasicMaterial({color: 0xFFFFFF, wireframe: true}
 const objet1 = new THREE.Mesh(geometry1, material1)
 
 // Place l'objet 
-objet1.position.x = -40;
+
+if(window.innerWidth < 800){
+    objet1.position.x = -10
+}
+else{
+    objet1.position.x = -window.innerWidth/40;
+}
+
+if(heightOfPage < 30){
+    objet1.position.y *= 2;
+}
+
 objet1.scale.multiplyScalar(1.2)
 
 // On ajoute l'objet a la scène 
@@ -36,8 +48,24 @@ const material2 = new THREE.MeshBasicMaterial({color: 0xFFFFFF, wireframe: true}
 const objet2 = new THREE.Mesh(geometry2, material2)
 
 // On le place dans la scène
-objet2.position.x = 30;
-objet2.position.y = -40;
+
+if(window.innerWidth < 800){
+    objet2.position.x = 7;
+}
+else{
+
+    objet2.position.x = 40;
+}
+objet2.position.y = -window.innerHeight/15;
+
+
+if(heightOfPage < 30){
+    objet2.position.y *= 2;
+}
+
+
+
+
 objet2.scale.multiplyScalar(1.4)
 
 
@@ -46,17 +74,58 @@ scene.add(objet2)
 
 
 // Creation du 3 eme objet 
-const geometry3 = new THREE.SphereGeometry( 10, 1, 10);
+const geometry3 = new THREE.SphereGeometry( 10, 4, 8);
 const material3 = new THREE.MeshBasicMaterial({color: 0xFFFFFF, wireframe: true})
 const objet3 = new THREE.Mesh(geometry3, material3)
 
 // On le place
-objet3.position.x = -40;
-objet3.position.y = -90;
+
+if(window.innerWidth < 800){
+    objet3.position.x = -10;
+}
+else{
+
+    objet3.position.x = -40;
+}
+
+objet3.position.y = -window.innerHeight/8;
+
+if(heightOfPage < 30){
+    objet3.position.y *= 2;
+}
+
 objet3.scale.multiplyScalar(1.3)
 
 // On lajoute 
 scene.add(objet3)
+
+
+// Creation du 3 eme objet 
+const geometry4 = new THREE.TorusKnotGeometry(8, 1.5, 25, 4);
+const material4 = new THREE.MeshBasicMaterial({color: 0xFFFFFF, wireframe: true})
+const objet4 = new THREE.Mesh(geometry4, material4)
+
+// On le place
+
+if(window.innerWidth < 800){
+    objet4.position.x = 12;
+}
+else{
+
+    objet4.position.x = 35;
+}
+objet4.position.y = -140;
+
+
+if(heightOfPage < 30){
+    objet4.position.y *= 2;
+}
+
+objet4.scale.multiplyScalar(1.3)
+
+// On lajoute 
+scene.add(objet4)
+
 
 
 function initThree(){
@@ -141,6 +210,14 @@ function rotateObject(){
     objet3.scale.y += 0,2*scrollDirection
     objet3.scale.z += 0,2*scrollDirection
 
+    objet4.rotation.x += t/1000*0.02*scrollDirection;
+    objet4.position.x += scrollDirection/12
+    objet4.position.y += scrollDirection/12
+
+    objet4.scale.x += 0,2*scrollDirection
+    objet4.scale.y += 0,2*scrollDirection
+    objet4.scale.z += 0,2*scrollDirection
+
     camera.position.y = t * 0.07;
 
 }
@@ -154,11 +231,14 @@ function animate(){
     renderer.render( scene, camera );
 
 
-    objet1.rotation.y += 0.006
+    objet1.rotation.y += 0.006 
 
     objet2.rotation.y += 0.006
 
     objet3.rotation.y += -0.003
+
+    objet4.rotation.y += -0.003
+
 
 }
 
@@ -174,7 +254,7 @@ $(window).on("load",function() {
             var windowBottom = $(this).scrollTop() + $(this).innerHeight();
             $(".projetLine").each(function() {
                 /* Check the location of each desired element */
-                var objectBottom = $(this).offset().top + $(this).outerHeight();
+                var objectBottom = $(this).offset().top + $(this).outerHeight() + 20;
                 
                 /* If the element is completely within bounds of the window, fade it in */
                 if (objectBottom < windowBottom) { //object comes into view (scrolling down)

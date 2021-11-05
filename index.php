@@ -6,21 +6,27 @@
 
     <script src="/js/background.js" type="text/javascript"></script>
     <script src="/js/circle.js" type="text/javascript"></script>
-
     <link href="css/style.css" rel="stylesheet" type="text/css">
+
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+
     <link href="css/navBar.css" rel="stylesheet" type="text/css">
+
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
     <title>Accueil</title>
 </head>
 <body>
-    <?php include ('includes/nav.php')?>
-    <div id = "container">
-        <div id = "canvasForHTML">
-        <!-- penser a enlever le scroll-->
-        </div>
+    <div class="bodyClass">
+        <?php include ('includes/nav.php')?>
+        <div id = "container">
+            <div id = "canvasForHTML">
+            <!-- penser a enlever le scroll-->
+            </div>
 
-        <div id="main">
-            <h1>Welcome back</h1>
+            <div id="main">
+                <h1>Welcome back</h1>
+            </div>
         </div>
     </div>
 

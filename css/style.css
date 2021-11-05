@@ -1,18 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Karla:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;300;500&display=swap');
 *{
     padding: 0;
     box-sizing: border-box;
     margin: 0;
     font-family: 'karla', serif;
     color: seashell;
+    font-weight:100;    
 
 
 }
 
 h1{
-    font-family: 'karla', sans-serif;
+    font-family: 'Karla', sans-serif;
+    font-weight:400;
+
 }
 
 body{

@@ -3,7 +3,7 @@ let circleNumber = 19
 
 
 function setup(){
-    createCanvas(windowWidth,windowHeight)
+    createCanvas(window.innerWidth,window.innerHeight-85)
     circleCenter = new Circle(windowWidth/2, windowHeight/2)
     circleList.push(circleCenter)   
     for (i = 0; i < circleNumber; i ++){

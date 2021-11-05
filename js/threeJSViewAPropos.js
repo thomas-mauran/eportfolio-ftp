@@ -29,7 +29,7 @@ function randomInteger(min, max) {
   }
 // DEFINITIONS DES OBJETS
 
-const size = 10;
+const size = 100;
 const divisions = size*5
 
 var minHeight = -4
@@ -82,7 +82,7 @@ function scalePercent(start, end) {
 // Pour avoir le % de la page qui a été scroll
 
 var scrollPercent = 0;
-var scrollDirection = 1
+var scrollDirection = 0.6
 var lastScrollTop = 0;
 function scrollPercentFunction(){
     scrollPercent =
@@ -94,9 +94,9 @@ function scrollPercentFunction(){
     
     var st = window.pageYOffset || document.documentElement.scrollTop; // Credits: "https://github.com/qeremy/so/blob/master/so.dom.js#L426"
     if (st > lastScrollTop){
-        scrollDirection = -1
+        scrollDirection = -0.6
     } else {
-        scrollDirection = 1
+        scrollDirection = 0.6
     }
     lastScrollTop = st <= 0 ? 0 : st; // For Mobile or negative scrolling}
 }
@@ -120,8 +120,6 @@ animationScriptsList.push({
     },
 })
 
-var increase = -1
-
 animationScriptsList.push({
     'start': 0,
     'end': 100,
@@ -131,7 +129,7 @@ animationScriptsList.push({
         console.log(scrollPercent)
 
         
-        if(plan.position.z == -size*150 || plan.position.z == size*50){
+        if(plan.position.z == -size*100 || plan.position.z == size*20){
             scrollDirection *= -1
         }
         plan.position.z += scrollDirection
@@ -180,4 +178,5 @@ function animate(){
 }
 // On appelle animate
 window.scrollTo({ top: 0, behavior: 'smooth' })
+
 animate()

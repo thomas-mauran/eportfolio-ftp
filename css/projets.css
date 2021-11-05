@@ -90,7 +90,7 @@ canvas{
 
 }
 
-@media screen and (max-width:1200px){
+@media screen and (max-width:1100px){
     .projetLine{
         display: flex;
         flex-direction: column;
