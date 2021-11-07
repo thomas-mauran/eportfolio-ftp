@@ -129,7 +129,7 @@ animationScriptsList.push({
         console.log(scrollPercent)
 
         
-        if(plan.position.z == -size*100 || plan.position.z == size*20){
+        if(plan.position.z < -size*90 || plan.position.z > size*50){
             scrollDirection *= -1
         }
         plan.position.z += scrollDirection

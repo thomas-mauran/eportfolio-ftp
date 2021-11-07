@@ -81,18 +81,7 @@
                         <img class = "logo" id = "favMangas" src="images/favoriteManga.jpg" alt="Mangas favoris">
                     </div>
                     <p class = "textBlock">Fan de mangas depuis un bon moment j'ai la chance d'en posséder une grande collection <br>(grace aux pass cultures)</p>
-                    <h3 class = "h3Class">Tier list :</h3>
-                    <ol>
-                        <li class = "tierList">1. Berserk</li>
-                        <li class = "tierList">2. Steel Ball Run</li>
-                        <li class = "tierList">3. Chainsaw Man</li>
-                        <li class = "tierList">4. Pluto</li>
-                        <li class = "tierList">5. SNK</li>
-                        <li class = "tierList">6. 20th century boys</li>
-                        <li class = "tierList">7. Bonne nuit punpun</li>
-
-
-                    </ol>
+     
                 </li>
 
                 </ul>
