@@ -27,7 +27,7 @@
                 <h1>Mes projets</h1>
             </div>
             <div class = "description">
-                <p>Bienvenue sur la page projet</p>
+                <p>Bienvenue sur ma page projets</p>
                 <p>Je regroupe ici tous les projets que j'ai pu réaliser au cours des dernières années.</p>
                 <p>Ces projets ont pu être réalisés dans le cadre de ma formation à l'iut ou en autodidacte</p>
 

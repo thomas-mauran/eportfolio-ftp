@@ -20,9 +20,21 @@
                 </div>
                 <div class = "description">
                     <p>
-                        description 
+                        Pendant ma première année de DUT nous avons réalisé un portfolio sur un CMS (wix). 
+                        Un portfolio de développeur web réalisé avec wix ne me paraissait pas idéal pour présenter mes compétences. 
                     </p>
-                    
+
+                    <p>C'est pourquoi j'ai décidé de refaire celui-ci comme prétexte pour apprendre de nouvelles choses.</p>
+                    <p>
+                        Ce portfolio codé en PHP CSS et Javascript et hébergé sur mon Raspberry Pi 3 ma permis d'apprendre à sécuriser un raspberry pi et mon réseau 
+                        grâce à cloudflare / fail2ban / des pare-feu et d'autres méthodes.
+                    </p>
+
+                    <p>
+                        Je voulais apprendre à faire des sites interactifs et pour cela je me suis orienté vers la librairie Three js. 
+                        J'avais déja appris a utiliser P5.js mais Three.js avait l'air beaucoup plus pratique pour faire des animations intéractives et en 3D  grâce
+                        à son système de caméra et de render
+                    </p>
 
                 </div>
             </div>

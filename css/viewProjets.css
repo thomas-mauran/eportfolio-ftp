@@ -61,6 +61,14 @@
 
 }
 
+
+.description p {
+    margin-top: 5%;
+    font-size: 18px;
+
+
+}
+
 .arrow{
     max-height: 100%;
 }

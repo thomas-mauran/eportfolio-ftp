@@ -91,7 +91,7 @@ else{
 objet3.position.y = -window.innerHeight/8;
 
 if(heightOfPage < 30){
-    objet3.position.y *= 1.5;
+    objet3.position.y *= 2;
 }
 
 objet3.scale.multiplyScalar(1.3)
@@ -248,23 +248,24 @@ animate()
 
 
 
-// jquery afficher les projets on scroll
-$(window).on("load",function() {
-        $(window).scroll(function() {
-            var windowBottom = $(this).scrollTop() + $(this).innerHeight();
-            $(".projetLine").each(function() {
-                /* Check the location of each desired element */
-                var objectBottom = $(this).offset().top + $(this).outerHeight() + 20;
-                
-                /* If the element is completely within bounds of the window, fade it in */
-                if (objectBottom < windowBottom) { //object comes into view (scrolling down)
-                if ($(this).css("opacity")==0) {$(this).fadeTo(250,1);}
-                } else { //object goes out of view (scrolling up)
-                if ($(this).css("opacity")==1) {$(this).fadeTo(250,0);}
-            }
-        });
-    }).scroll(); //invoke scroll-handler on page-load
-});
-
+if(window.innerWidth > 1000){
+    // jquery afficher les projets on scroll
+    $(window).on("load",function() {
+            $(window).scroll(function() {
+                var windowBottom = $(this).scrollTop() + $(this).innerHeight();
+                $(".projetLine").each(function() {
+                    /* Check the location of each desired element */
+                    var objectBottom = $(this).offset().top + $(this).outerHeight() + 20;
+                    
+                    /* If the element is completely within bounds of the window, fade it in */
+                    if (objectBottom < windowBottom) { //object comes into view (scrolling down)
+                    if ($(this).css("opacity")==0) {$(this).fadeTo(250,1);}
+                    } else { //object goes out of view (scrolling up)
+                    if ($(this).css("opacity")==1) {$(this).fadeTo(250,0);}
+                }
+            });
+        }).scroll(); //invoke scroll-handler on page-load
+    });
+}
 
 

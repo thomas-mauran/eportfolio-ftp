@@ -25,10 +25,7 @@
 
 
         <div class = "line" id = "info-line">
-            <div class = "item">
-                <img src="images/phoneIcon.png" alt="phone icon">
-                <p class="description"> 06 95 15 48 70</p>
-            </div>
+
 
             <div class = "item">
                 <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/thomas-mauran-9238371b7/"><img src="images/linkedin.png" alt="linked in "></a>
@@ -37,7 +34,7 @@
 
             <div class = "item">
                 <img src="images/mailIcon.png" alt="mail icon">
-                <p class="description"> thomasmauran@yahoo.com</p>
+                <p class="description"> thomas.mauran@etu.umontpellier.fr</p>
             </div>
 
         </div>

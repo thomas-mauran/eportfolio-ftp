@@ -27,7 +27,7 @@
             <div class = "container" id = "first">
                 <h1 class="title">Bienvenue !</h1>
                 <p class = "textBlock">Continuez de scroll pour en apprendre plus sur moi et mon parcours</p>
-                <p class = "textBlock">Vous pouvez cliquer <a href="images/CV.pdf" download>ici</a> pour telecharger mon CV officiel</p> 
+                <p class = "textBlock">Vous pouvez cliquer <a href="images/CV.pdf" download>ici</a> pour télécharger mon CV officiel</p> 
 
             </div>
 
@@ -35,7 +35,7 @@
                 <h1 class="title">A propos de moi</h1>
                 <img class="logo" src="images/cvImage.jpeg" alt="moi">
 
-                <p class = "textBlock"> Je m'appelle Thomas Mauran j'ai 19 ans je vis à Pérols et j'étudie l'informatique à l'IUT de Montpellier. Passionné d'informatique depuis longtemps je m'épanouis complètement dans mes études actuelles et je cherche à en apprendre plus dans ce domaine.</p>
+                <p class = "textBlock"> Je m'appelle Thomas Mauran, j'ai 19 ans, je vis à Pérols et j'étudie l'informatique à l'IUT de Montpellier. <br>Passionné d'informatique depuis longtemps, je m'épanouis complètement dans mes études actuelles et je cherche à en apprendre plus dans ce domaine.</p>
             </div>
 
             <div class = "container">
@@ -72,7 +72,7 @@
                     <li><h2 class = "sousTitle">Cor d'harmonie</h2>
                     <img class = "logo" src="images/cor.png" alt="logo cor">
                     <p class = "textBlock">Je fais du cor d'harmonie depuis une dizaine d'années</p>
-                    <p class = "textBlock">J'ai eu la chance de pouvoir jouer dans des orchestres symphoniques (<a target="_blank" rel="noopener noreferrer" href="https://www.osadoc.com/">OSADOC</a>),<br> ce qui ma permit d'apprendre à travailler en équipe</p>
+                    <p class = "textBlock">J'ai eu la chance de pouvoir jouer dans des orchestres symphoniques (<a target="_blank" rel="noopener noreferrer" href="https://www.osadoc.com/">OSADOC</a>),<br> ce qui ma permis d'apprendre à travailler en équipe</p>
 
                 </li>
 
@@ -80,7 +80,7 @@
                     <div class="imgList">
                         <img class = "logo" id = "favMangas" src="images/favoriteManga.jpg" alt="Mangas favoris">
                     </div>
-                    <p class = "textBlock">Fan de mangas depuis un bon moment j'ai la chance d'en posséder une grande collection <br>(grace aux pass cultures)</p>
+                    <p class = "textBlock">Fan de mangas depuis un bon moment j'ai la chance d'en posséder une petite collection <br>(grace aux pass cultures)</p>
      
                 </li>
 
