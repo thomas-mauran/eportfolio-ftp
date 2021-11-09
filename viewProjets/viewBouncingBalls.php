@@ -20,7 +20,12 @@
                 </div>
                 <div class = "description">
                     <p>
-                        description 
+                        Ce petit projet ma appris à manier P5.js. Celui-ci peut servir de background pour un site.
+                    </p>
+                    <p>
+                        Vous pouvez cliquer sur le lien live pour voir le projet fonctionner ou accéder au 
+                        code en cliquant sur le lien github.
+                        Recharger la page permet de générer de nouvelles balles 
                     </p>
                     
 

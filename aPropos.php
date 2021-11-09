@@ -25,7 +25,7 @@
         <script src="js/threeJSViewAPropos.js"></script>
         <div class = "centeredMain">
             <div class = "container" id = "first">
-                <h1 class="title">Bienvenue !</h1>
+                <h1 class="title">A propos de moi</h1>
                 <p class = "textBlock">Continuez de scroll pour en apprendre plus sur moi et mon parcours</p>
                 <p class = "textBlock">Vous pouvez cliquer <a href="images/CV.pdf" download>ici</a> pour télécharger mon CV officiel</p> 
 

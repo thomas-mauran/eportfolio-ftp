@@ -20,10 +20,10 @@
                 </div>
                 <div class = "description">
                     <p>
-                        description 
+                        Ce projet m'a permis d'apprendre a utiliser une api. 
+                        En effet si vous cliquez sur le lien du projet
+                        vous pourrez voir la position de l'ISS en live sur une carte
                     </p>
-                    
-
                 </div>
             </div>
 

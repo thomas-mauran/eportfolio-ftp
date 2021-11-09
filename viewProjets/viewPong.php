@@ -20,9 +20,11 @@
                 </div>
                 <div class = "description">
                     <p>
-                        description 
+                        Cette reproduction du jeu Pong codé en python grace au module turtle ma permis de découvrir la programmation et ses bases.
                     </p>
-                    
+                    <p>
+                        Vous pouvez accéder au code en cliquant sur le lien github.                    
+                    </p>
 
                 </div>
             </div>

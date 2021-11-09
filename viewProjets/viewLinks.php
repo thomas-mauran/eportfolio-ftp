@@ -20,7 +20,11 @@
                 </div>
                 <div class = "description">
                     <p>
-                        description 
+                        Ce petit projet ma appris à manier P5.js. Vous pouvez retrouver ce projet sur la page d'accueil de mon portfolio.
+                    </p>
+                    <p>
+                        Vous pouvez cliquer sur le lien live pour voir le projet fonctionner ou accéder au 
+                        code en cliquant sur le lien github.
                     </p>
                     
 

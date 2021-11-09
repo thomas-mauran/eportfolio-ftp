@@ -20,9 +20,18 @@
                 </div>
                 <div class = "description">
                     <p>
-                        description 
+                        Pendant ma première année de DUT nous avons adapter le jeu de société bang pour en faire une version
+                        interactive et multijoueur.
                     </p>
-                    
+                    <p> 
+                        Ce projet réalisé dans notre matière IHM (Interface Homme Machine) nous a appris à réaliser
+                        des interfaces en java grace à Java FX.
+                    </p>
+                    <p>
+                        Nous avions au préalable réalisé des maquettes grâce à figma pour organiser nos pensées et se mettre 
+                        daccord sur le design général de notre jeu.
+                    </p>
+
 
                 </div>
             </div>

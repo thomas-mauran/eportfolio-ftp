@@ -3,9 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <script src="libraries/p5.js" type="text/javascript"></script>
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
 
     <script src="/js/background.js" type="text/javascript"></script>
     <script src="/js/circle.js" type="text/javascript"></script>
+
     <link href="css/style.css" rel="stylesheet" type="text/css">
 
     <link href="css/index.css" rel="stylesheet" type="text/css">
@@ -17,16 +19,15 @@
     <title>Accueil</title>
 </head>
 <body>
-    <div class="bodyClass">
-        <?php include ('includes/nav.php')?>
-        <div id = "container">
-            <div id = "canvasForHTML">
-            <!-- penser a enlever le scroll-->
-            </div>
 
-            <div id="main">
-                <h1>Welcome back</h1>
-            </div>
+    <div id = "canvasForHTML"></div>
+
+    <?php include ('includes/nav.php')?>
+    <div class = "container">
+
+        <div class = "boite">
+            <h1>Bienvenue sur mon portfolio</h1>
+            <p>Naviguez à travers les pages pour en apprendre plus sur moi et les projets que j'ai pu réaliser</p>
         </div>
     </div>
 

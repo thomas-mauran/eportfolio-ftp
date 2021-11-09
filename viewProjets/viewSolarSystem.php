@@ -20,7 +20,13 @@
                 </div>
                 <div class = "description">
                     <p>
-                        description 
+                        Ce générateur de système solaire (très basique) fait en P5.js m'a permis d'aborder 
+                        la notion de programmation orientée objet
+                    </p>
+                    <p>
+                        Vous pouvez cliquer sur le lien live pour voir le projet fonctionner ou accéder au 
+                        code en cliquant sur le lien github.
+                        Recharger la page permet de générer de nouvelles planètes. 
                     </p>
                     
 

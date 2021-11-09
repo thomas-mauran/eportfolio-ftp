@@ -1,3 +1,25 @@
 body{
     overflow: hidden;
 }
+
+.container{
+    text-align: center;
+    font-size: larger;
+}
+
+.boite{
+    margin-top: 15%;
+}
+.boite p{
+    margin-top: 2%;
+}
+
+@media screen and (max-width:1000px) {
+    .boite{
+        margin-top: 40%;
+    }
+
+    .boite p{
+        margin-top: 5%;
+    }
+}

@@ -20,7 +20,7 @@
                 </div>
                 <div class = "description">
                     <p>
-                        description 
+                        Pas encore eu lieu.
                     </p>
                     
 

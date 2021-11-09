@@ -20,9 +20,32 @@
                 </div>
                 <div class = "description">
                     <p>
-                        description 
+                        Chaque année la <a target="_blank" rel="noopener noreferrer" href="https://bourse.coddity.com/"> bourse coddity</a>
+                        propose à des étudiants de participer à un concours de programmation à thème imposé.
                     </p>
-                    
+                    <p>
+                        L'année dernière le sujet du concours portait sur les fake new et comment vérifier la véracité d'une information
+                        sur internet.
+                    </p>
+                    <p>
+                        Avec mon ami Clement Gambier nous nous sommes lancé dans ce projet avec pour objectif la réalisation
+                        d'un forum où les utilisateurs peuvent proposer un sujet ajouté des sources débattre grace à des commentaires.
+                    </p>
+                    <p>
+                        Avant de commencer ce projet nous n'avions aucune connaissance en PHP. En première année de DUT nous avons eu beaucoup
+                        de cours sur la création de requêtes SQL mais pas de formation sur la façon de relier une base de données à un site web.
+                    </p>
+                    <p>
+                        Pour cela nous avons appris PHP et MYSQL de notre côté tout le long de notre projet.
+                    </p>
+                    <p>
+                        Au final nous sommes très fiers du résultat. Les quelques fonctionnalités du site fonctionnent parfaitement ce qui
+                        le rend totalement utilisable. Celui-ci nous aura permis de passer en finale du concours face à 5 autres équipes
+                        mais malheureusement nous n'avons pas gagné.
+                    </p>
+                    <p>
+                        Ce projet nous aura quand même appris énormément sur le développement web et la gestion de projet.
+                    </p>
 
                 </div>
             </div>

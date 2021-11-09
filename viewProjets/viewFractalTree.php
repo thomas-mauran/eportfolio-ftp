@@ -20,9 +20,15 @@
                 </div>
                 <div class = "description">
                     <p>
-                        description 
+                        Ce générateur d'arbres récursifs fait en P5.js ma permis de commencer à aborder le principe de 
+                        récursivité.  
                     </p>
-                    
+                    <p>Celui-ci permet aussi de faire un bon background pour un site</p>
+                    <p>
+                        Vous pouvez cliquer sur le lien live pour voir le projet fonctionner. 
+                        Recharger la page permet de générer de nouveaux arbres
+                    </p>
+
 
                 </div>
             </div>
