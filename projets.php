@@ -37,8 +37,44 @@
         <div class = "block">
 
             <h1>2021</h1>
+            <div class = "projetLine">
+
+                    <div class = "projet ">
+                        <div class = "description">
+                            <h2>Random wiki</h2>
+                            <div class = "imageLien">
+                                <a href="/viewProjets/viewRandomWiki.php">
+                                    <img src="images/randomWiki.png" alt="random wiki image">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
 
             <div class = "projetLine">
+
+                    <div class = "projet ">
+                        <div class = "description">
+                            <h2>Site de e-commerce</h2>
+                            <div class = "imageLien">
+                                <a href="/viewProjets/coming-soon.php">
+                                    <img src="images/coming-soon.jpeg" alt="wediscuss image">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "projet ">
+                        <div class = "description">
+                            <h2>Application de santée</h2>
+                            <div class = "imageLien">
+                                <a href="/viewProjets/coming-soon.php">
+                                    <img src="images/coming-soon.jpeg   " alt="wediscuss image">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class = "projet ">
                         <div class = "description">
@@ -51,8 +87,12 @@
 
                         </div>
                     </div>
-    
-                    <div class = "projet ">
+
+                </div>
+
+                <div class = "projetLine">
+
+                <div class = "projet ">
                         <div class = "description">
                             <h2>Nuit de l'info</h2>
 
@@ -76,10 +116,6 @@
                         </div>
                     </div>
 
-
-                </div>
-
-                <div class = "projetLine">
                     <div class = "projet ">
                         <div class = "description">
                             <h2>Projet bang</h2>
@@ -114,7 +150,7 @@
 
                             <div class = "imageLien">
                                 <a href="/viewProjets/viewNDL2020.php">
-                                    <img src="images/NDL2020.png" alt="wediscuss image">
+                                    <img src="images/NDL2020.png" alt="Nuit de l'info 2020 image">
                                 </a>
                             </div>
                         </div>
@@ -124,8 +160,8 @@
                         <div class = "description">
                             <h2>Premier site vitrine</h2>
                             <div class = "imageLien">
-                                <a href="index.php">
-                                    <img src="images/bang.jpeg" alt="Projet bang">
+                                <a href="/viewProjets/viewHal.php">
+                                    <img src="images/htmlCode.png" alt="Premier site vitrine image">
                                 </a>
                             </div>
 

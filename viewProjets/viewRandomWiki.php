@@ -3,7 +3,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Nuit de l'info 2021</title>
+    <title>Random wiki</title>
     <link href="/css/navBar.css" rel="stylesheet" type="text/css">
     <link href="/css/style.css" rel="stylesheet" type="text/css">
     <link href="/css/viewProjets.css" rel="stylesheet" type="text/css">
@@ -16,22 +16,16 @@
         <div class = "box">
             <div class = "texte">
                 <div class = "titre">
-                    <h1>Nuit de l'info 2021</h1>
+                    <h1>Random wiki</h1>
                 </div>
                 <div class = "description">
                     <p>
-                        Cette année j'ai pu participer à la nuit de l'info à l'IUT de Montpellier avec d'autres étudiants.
-                        Cette édition se portait sur les sauveteurs en mers. Nous avons donc réalise un forum dans le style Wikipédia
-                        où les utilisateurs avec le grade collaborateur peuvent rajouter des informations qui seront ensuite validées par
-                        un administrateur.
+                        Petit projet pour avoir un accès facile a des pages aléatoires de wikipédia.
                     </p>
                     <p>
-                        Nous avions sélectionné plusieurs défis surtout en design qui nous ont permis d'utiliser Three.js pour faire
-                        des animations dans un thème naval.
+                        Vous pouvez accéder au code en cliquant sur le lien github ou accéder au projet avec le lien live.                    
                     </p>
-                    <p>
-                        Je vous laisse découvrir notre site grace au bouton Lien live situé en bas de la page
-                    </p>
+                    
 
                 </div>
             </div>
@@ -39,7 +33,7 @@
         </div>
 
         <div class = "box" id="boxImage">
-            <img id = "imageSlide" alt="test">
+            <img id = "imageSlide" alt="image slider">
             <script> 
                 var i = 0;
                 var imageList = [];
@@ -47,9 +41,8 @@
 
 
                 // Liste d'images
-                imageList[0] = '../images/NDL2021.png'
-                imageList[1] = '../images/NDL2021-2.png'
-                imageList[2] = '../images/NDL2021-3.png'
+                imageList[0] = '../images/randomWiki.png'
+
 
                 function changeImg(add = 0){
 
@@ -67,7 +60,6 @@
                 }
                 changeImg()
             </script>
-            
 
             <div class = "line" style="margin-top: 1%;">
                 <div class = "liens">
@@ -81,19 +73,22 @@
             </div>
 
             <div class ="line">
-        
+                <div class = "liens">
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/thomas-mauran/turtleSoccer"><img class="imgLiens" src="/images/logoGithub.png" alt="logo github"></a>
+                    <p>Lien github</p>
+                </div>
 
                 <div class = "liens">
-                    <a target="_blank" rel="noopener noreferrer" href="https://ndi2021-ours.herokuapp.com/"><img class="imgLiens" src="/images/liveCode.png" alt="logo live code"></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://thomasprojects.works/projetsFiles/wikiRandom/"><img class="imgLiens" src="/images/liveCode.png" alt="logo live code"></a>
                     <p>Lien live</p>
 
                 </div>
+
+            
             </div>
         </div>
     </div>
-
     <?php include ('../includes/footer.php')?>
-
 
 </body>
 </html>

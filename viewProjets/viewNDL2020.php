@@ -20,9 +20,16 @@
                 </div>
                 <div class = "description">
                     <p>
-                        description 
+                        J'ai pu participer à la nuit de l'info 2020 avec d'autres étudiants de l'IUT.
+                        Dans cette compétition nous avions sélectionné plusieurs défis qui nous semblait réalisable avec nos faibles connaissances
+                        en développement web à l'époque.
+                        
                     </p>
-                    
+                    <p>
+                    Nous avons pu remporter la première place du défis "meilleur design de la barre de navigation".
+                        Pour cela nous avions réalisé un bouton circulaire qui en cliquant dessus affichait 4 autres boutons circulaires
+                        autours pour chaque page de notre site. 
+                        </p>
 
                 </div>
             </div>
@@ -76,9 +83,8 @@
                     <p>Lien github</p>
 
                 </div>
-
-            
             </div>
+            
         </div>
     </div>
     <?php include ('../includes/footer.php')?>

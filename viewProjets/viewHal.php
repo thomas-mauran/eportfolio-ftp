@@ -3,7 +3,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Nuit de l'info 2021</title>
+    <title>Premier site vitrine</title>
     <link href="/css/navBar.css" rel="stylesheet" type="text/css">
     <link href="/css/style.css" rel="stylesheet" type="text/css">
     <link href="/css/viewProjets.css" rel="stylesheet" type="text/css">
@@ -16,22 +16,19 @@
         <div class = "box">
             <div class = "texte">
                 <div class = "titre">
-                    <h1>Nuit de l'info 2021</h1>
+                    <h1>Premier site vitrine</h1>
                 </div>
                 <div class = "description">
                     <p>
-                        Cette année j'ai pu participer à la nuit de l'info à l'IUT de Montpellier avec d'autres étudiants.
-                        Cette édition se portait sur les sauveteurs en mers. Nous avons donc réalise un forum dans le style Wikipédia
-                        où les utilisateurs avec le grade collaborateur peuvent rajouter des informations qui seront ensuite validées par
-                        un administrateur.
+                        Pendant ma première année de DUT nous avons adapter coder un premier site vitrine pour apprendre à manier
+                        HTML et CSS. Le site comportait une barre de navigation et quelques pages avec du texte et des images.
+                    </p>
+                    <p> 
+                        les fichier de ce projet n'ont malheuresement pas pu être retrouvé.
                     </p>
                     <p>
-                        Nous avions sélectionné plusieurs défis surtout en design qui nous ont permis d'utiliser Three.js pour faire
-                        des animations dans un thème naval.
-                    </p>
-                    <p>
-                        Je vous laisse découvrir notre site grace au bouton Lien live situé en bas de la page
-                    </p>
+
+
 
                 </div>
             </div>
@@ -47,9 +44,8 @@
 
 
                 // Liste d'images
-                imageList[0] = '../images/NDL2021.png'
-                imageList[1] = '../images/NDL2021-2.png'
-                imageList[2] = '../images/NDL2021-3.png'
+                imageList[0] = '../images/htmlCode.png'
+
 
                 function changeImg(add = 0){
 
@@ -67,7 +63,6 @@
                 }
                 changeImg()
             </script>
-            
 
             <div class = "line" style="margin-top: 1%;">
                 <div class = "liens">
@@ -80,20 +75,9 @@
 
             </div>
 
-            <div class ="line">
-        
-
-                <div class = "liens">
-                    <a target="_blank" rel="noopener noreferrer" href="https://ndi2021-ours.herokuapp.com/"><img class="imgLiens" src="/images/liveCode.png" alt="logo live code"></a>
-                    <p>Lien live</p>
-
-                </div>
-            </div>
         </div>
     </div>
-
     <?php include ('../includes/footer.php')?>
-
 
 </body>
 </html>

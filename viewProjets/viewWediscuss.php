@@ -12,6 +12,7 @@
 <body>
     <?php include ('../includes/nav.php')?>
 
+
     <div class = "container">
         <div class = "box">
             <div class = "texte">
