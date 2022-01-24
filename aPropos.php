@@ -53,6 +53,17 @@
                     <p class = "textBlock">Ma formation me permet de travailler avec des requetes <br> SQL complexe tout en normalisant les bases de données que j'utilise</p>
                 </li>
 
+                <li><h2 class = "sousTitle">React JS</h2>
+                    <img class = "logo"  src="images/reactLogo.png" alt="logo react ">
+                    <h2 >Novice en react</h2>
+                    <p class = "textBlock">Je n'ai pas encore beaucoup d'experience en react car je n'ai pas eu le temps de beaucoup en faire. </p>
+                    <p>En effet j'ai commencé une formation sur le react et j'ai déjà appris quelques principes <br>comme le conditionnal rendering, les states, les props. </p>
+                    <p>Mais je n'ai pas eu le temps d'aller plus loin à cause d'autres projets en cours.</p>
+                    <p>J'ai pu faire quelques projets en react notamment l'application<a target="_blank" rel="noopener noreferrer" href="https://thomasprojects.works/viewProjets/viewSpaceEveryday.php">space everyday</a></p>
+                     
+                    
+                </li>
+
                 <li><h2 class = "sousTitle">Java</h2>
                     <img class = "logo"  src="images/java.jpeg" alt="logo java ">
                     <h2 >Maitrise de java</h2>

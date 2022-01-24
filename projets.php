@@ -8,8 +8,15 @@
     <link href="/css/projets.css" rel="stylesheet" type="text/css">
     <link href="/css/style.css" rel="stylesheet" type="text/css">
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <script src="js/three.js"></script>
     <script src="js/jquery.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 
 </head>
@@ -33,13 +40,32 @@
 
             </div>
         </div>
+        <div class = "block">
+
+            <h1>2022</h1>
+            <div class = "projetLine">
+
+                    <div class = "projet" data-aos="fade-up">
+                        <div class = "description">
+                            <h2>Space everyday</h2>
+                            <div class = "imageLien">
+                                <a href="/viewProjets/viewSpaceEveryday.php">
+                                    <img src="images/space-everyday.jpeg" alt="Space everyday">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
 
         <div class = "block">
 
             <h1>2021</h1>
             <div class = "projetLine">
 
-                    <div class = "projet ">
+                    <div class = "projet" data-aos="fade-up">
                         <div class = "description">
                             <h2>Random wiki</h2>
                             <div class = "imageLien">
@@ -54,29 +80,29 @@
 
             <div class = "projetLine">
 
-                    <div class = "projet ">
+                    <div class = "projet" data-aos="fade-right">
                         <div class = "description">
                             <h2>Site de e-commerce</h2>
                             <div class = "imageLien">
-                                <a href="/viewProjets/coming-soon.php">
-                                    <img src="images/coming-soon.jpeg" alt="wediscuss image">
+                                <a href="/viewProjets/viewEcommerce.php">
+                                    <img src="images/nft.png" alt="nft e-commerce">
                                 </a>
                             </div>
                         </div>
                     </div>
 
-                    <div class = "projet ">
+                    <div class = "projet" data-aos="fade-up">
                         <div class = "description">
                             <h2>Application de santée</h2>
                             <div class = "imageLien">
-                                <a href="/viewProjets/coming-soon.php">
-                                    <img src="images/coming-soon.jpeg   " alt="wediscuss image">
+                                <a href="/viewProjets/viewSSSM.php">
+                                    <img src="images/SSSM.png" alt="Application de santée">
                                 </a>
                             </div>
                         </div>
                     </div>
 
-                    <div class = "projet ">
+                    <div class = "projet" data-aos="fade-left">
                         <div class = "description">
                             <h2>We discuss</h2>
                             <div class = "imageLien">
@@ -92,7 +118,7 @@
 
                 <div class = "projetLine">
 
-                <div class = "projet ">
+                <div class = "projet" data-aos="fade-right">
                         <div class = "description">
                             <h2>Nuit de l'info</h2>
 
@@ -104,7 +130,7 @@
                         </div>
                     </div>
 
-                    <div class = "projet ">
+                    <div class = "projet" data-aos="fade-up">
                         <div class = "description">
                             <h2>E-portfolio</h2>
 
@@ -116,7 +142,7 @@
                         </div>
                     </div>
 
-                    <div class = "projet ">
+                    <div class = "projet" data-aos="fade-left">
                         <div class = "description">
                             <h2>Projet bang</h2>
                             <div class = "imageLien">
@@ -144,7 +170,7 @@
             <div class = "projetLine">
 
     
-                    <div class = "projet">
+                    <div class = "projet" data-aos="fade-right">
                         <div class = "description">
                             <h2>Nuit de l'info</h2>
 
@@ -156,7 +182,7 @@
                         </div>
                     </div>
 
-                    <div class = "projet">
+                    <div class = "projet" data-aos="fade-left">
                         <div class = "description">
                             <h2>Premier site vitrine</h2>
                             <div class = "imageLien">
@@ -177,7 +203,7 @@
             <div class = "projetLine">
                 
 
-                <div class = "projet">
+                <div class = "projet" data-aos="fade-right">
                         <div class = "description">
                             <h2>Fractal tree</h2>
                             <div class = "imageLien">
@@ -189,7 +215,7 @@
                         </div>
                 </div>
 
-                <div class = "projet">
+                <div class = "projet" data-aos="fade-up">
                         <div class = "description">
                             <h2>ISS locator</h2>
                             <div class = "imageLien">
@@ -202,7 +228,7 @@
                 </div>
 
 
-                <div class = "projet">
+                <div class = "projet" data-aos="fade-left">
                         <div class = "description">
                             <h2>Bouncing balls</h2>
                             <div class = "imageLien">
@@ -217,7 +243,7 @@
             </div>
 
             <div class = "projetLine">
-                <div class = "projet">
+                <div class = "projet" data-aos="fade-right">
                         <div class = "description">
                             <h2>Solar system generator</h2>
                             <div class = "imageLien">
@@ -229,7 +255,7 @@
                         </div>
                 </div>
 
-                <div class = "projet">
+                <div class = "projet" data-aos="fade-up">
                         <div class = "description">
                             <h2>Bouncing lines</h2>
                             <div class = "imageLien">
@@ -241,7 +267,7 @@
                         </div>
                 </div>
 
-                <div class = "projet">
+                <div class = "projet" data-aos="fade-left">
                         <div class = "description">
                             <h2>Links</h2>
                             <div class = "imageLien">
@@ -259,7 +285,7 @@
             <h1>2018</h1>
 
             <div class = "projetLine">
-                <div class = "projet">
+                <div class = "projet" data-aos="fade-right">
                         <div class = "description">
                             <h2>Turtle Soccer</h2>
                             <div class = "imageLien">
@@ -271,12 +297,12 @@
                         </div>
                 </div>
 
-                <div class = "projet">
+                <div class = "projet" data-aos="fade-left">
                         <div class = "description">
                             <h2>Pong</h2>
                             <div class = "imageLien">
                                 <a href="/viewProjets/viewPong.php">
-                                    <img src="images/pong.png" alt="Pong">
+                                    <img src="images/pong2.png" alt="Pong">
                                 </a>
                             </div>
 

@@ -37,6 +37,13 @@
                 <p class="description"> thomas.mauran@etu.umontpellier.fr</p>
             </div>
 
+            <div class = "item">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/thomas-mauran"><img src="images/logoGithub.png" alt="github icon"></a>
+
+                
+                <p class="description">@thomas-mauran</p>
+            </div>
+
         </div>
 
     </div>
