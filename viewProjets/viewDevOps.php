@@ -3,7 +3,7 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Pong</title>
+    <title>Hackaton Dev Ops</title>
     <link href="/css/navBar.css" rel="stylesheet" type="text/css">
     <link href="/css/style.css" rel="stylesheet" type="text/css">
     <link href="/css/viewProjets.css" rel="stylesheet" type="text/css">
@@ -12,19 +12,31 @@
 <body>
     <?php include ('../includes/nav.php')?>
 
+
     <div class = "container">
         <div class = "box">
             <div class = "texte">
                 <div class = "titre">
-                    <h1>Pong</h1>
+                    <h1>Hackaton DevOps Heroes</h1>
                 </div>
                 <div class = "description">
                     <p>
-                        Cette reproduction du jeu Pong codé en python grace au module turtle m'a permis de découvrir la programmation et ses bases.
+                        Cette année j'ai pu participer au hackaton <a target="_blank" rel="noopener noreferrer" href="https://www.hackathon-devops-cagip.fr/">Dev ops Heroes</a>
+                        organisé par Ca-gip.
                     </p>
                     <p>
-                        Vous pouvez accéder au code en cliquant sur le lien github.                    
+                        L'objectif : "Pilotez vos infrastructures et gérez leur supervision, triomphez du déploiement instantané d’une application résiliente, réactive aux attaques, 
+                        aux incidents et aux pics de charge. Comment ? En vous appuyant sur les solutions de l’entreprise et en expérimentant les technologies que le 
+                        Cloud peut vous offrir. Vous devrez user de toutes vos connaissances et de tous vos talents pour faire partie des « DevOps Heroes » de demain !"
                     </p>
+                    <p>
+                        Ce hackaton m'a permit de découvrir des personnes incroyable tout en me familiarisant avec les outils et les pratiques Dev Ops.
+                    </p>
+                    <p>
+                        Notre équipe à remporté la 1ère place en mettant en place un système de déploiement d'infrastructure automatisé grace à Terraform et Helm.
+                        Vous pouvez trouver une démo <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=Y-6wPEAAB8Q">ici</a>
+                    </p>
+            
 
                 </div>
             </div>
@@ -32,7 +44,7 @@
         </div>
 
         <div class = "box" id="boxImage">
-            <img id = "imageSlide" alt="image slider">
+            <img id = "imageSlide" alt="Image slider">
             <script> 
                 var i = 0;
                 var imageList = [];
@@ -40,8 +52,14 @@
 
 
                 // Liste d'images
-                imageList[1] = '../images/pong1.png'
-                imageList[1] = '../images/pong2.png'
+                imageList[0] = '../images/devopsHeroes/devops.jpg'
+                imageList[1] = '../images/devopsHeroes/devops2.jpg'
+                imageList[2] = '../images/devopsHeroes/devops3.jpg'
+                imageList[3] = '../images/devopsHeroes/devops4.jpg'
+                imageList[4] = '../images/devopsHeroes/devops5.png'
+                imageList[5] = '../images/devopsHeroes/devops6.png'
+
+
 
                 function changeImg(add = 0){
 
@@ -71,14 +89,7 @@
 
             </div>
 
-            <div class ="line">
-                <div class = "liens">
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/thomas-mauran/pong"><img class="imgLiens" src="/images/logoGithub.png" alt="logo github"></a>
-                    <p>Lien github</p>
-                </div>
-
             
-            </div>
         </div>
     </div>
     <?php include ('../includes/footer.php')?>

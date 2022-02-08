@@ -26,7 +26,6 @@
 
         <div class = "line" id = "info-line">
 
-
             <div class = "item">
                 <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/thomas-mauran-9238371b7/"><img src="images/linkedin.png" alt="linked in "></a>
                 <p class="description"> @thomas-mauran</p>

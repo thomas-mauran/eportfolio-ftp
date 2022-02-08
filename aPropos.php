@@ -41,40 +41,88 @@
             <div class = "container">
                 <h1 class="title">Mes compétences</h1>
 
+                <h1 class="underline">Bonne maitrise</h1>
+
                 <li><h2 class = "sousTitle">Front End</h2>
-                    <img class = "logo"  src="images/HTML-JS-CSS.jpeg" alt="logo HTML JS CSS">
+                    <img class = "logo logo-big-solo"  src="images/logo/html-css-js.png" alt="logo HTML JS CSS">
                     <h2 >Compétences solides en HTML CSS et Javascript</h2>
-                    <p class = "textBlock">Très attiré par le web j'ai déjà eu l'occasion de réaliser <br>plusieurs sites que ce soit dans le cadre de ma formation ou en autodidacte</p>
+                    <div class="textBlock">
+                        <p>Très attiré par le web j'ai déjà eu l'occasion de réaliser <br>plusieurs sites que ce soit dans le cadre de ma formation ou en autodidacte : </p>
+                        <p>
+                            <a target="_blank" rel="noopener noreferrer" href="https://thomasprojects.works/viewProjets/viewNDL2020.php">Nuit de l'info 2020</a><br>
+                            <a target="_blank" rel="noopener noreferrer" href="https://thomasprojects.works/viewProjets/viewNDL2021.php">Nuit de l'info 2021</a><br>
+                            <a target="_blank" rel="noopener noreferrer" href="https://thomasprojects.works/viewProjets/viewFractalTree.php">Fractal tree generator</a><br>
+                            <a target="_blank" rel="noopener noreferrer" href="https://thomasprojects.works/viewProjets/ISS.php">ISS Locator</a><br>
+                            <a target="_blank" rel="noopener noreferrer" href="https://thomasprojects.works/viewProjets/viewWediscuss.php">We discuss</a>
+
+                        </p>
+                    </div>
                 </li>
 
-                <li><h2 class = "sousTitle">Back End </h2>
-                    <img class = "logo"  src="images/php.png" alt="logo php MySql">
+                <li><h2 class = "sousTitle">Back End</h2>
+                    <img class = "logo logo-big-solo"  src="images/php.png" alt="logo php MySql">
                     <h2 >Bonne maitrise de php / mysql</h2>
-                    <p class = "textBlock">Ma formation me permet de travailler avec des requetes <br> SQL complexe tout en normalisant les bases de données que j'utilise</p>
+                    <div class="textBlock">
+                        <p>Ma formation me permet de travailler avec des requetes <br> SQL complexe tout en normalisant les bases de données que j'utilise</p>
+                        <p>J'ai pu utiliser php Mysql dans de nombreux projets comme <br><a target="_blank" rel="noopener noreferrer" href="https://thomasprojects.works/viewProjets/viewWediscuss.php">We discuss</a> ou <a target="_blank" rel="noopener noreferrer" href="https://thomasprojects.works/viewProjets/viewEcommerce.php">un site de vente de nft</a></p>
+                        
+                    </div>
                 </li>
 
-                <li><h2 class = "sousTitle">React JS</h2>
-                    <img class = "logo"  src="images/reactLogo.png" alt="logo react ">
-                    <h2 >Novice en react</h2>
-                    <p class = "textBlock">Je n'ai pas encore beaucoup d'experience en react car je n'ai pas eu le temps de beaucoup en faire. </p>
-                    <p>En effet j'ai commencé une formation sur le react et j'ai déjà appris quelques principes <br>comme le conditionnal rendering, les states, les props. </p>
-                    <p>Mais je n'ai pas eu le temps d'aller plus loin à cause d'autres projets en cours.</p>
-                    <p>J'ai pu faire quelques projets en react notamment l'application<a target="_blank" rel="noopener noreferrer" href="https://thomasprojects.works/viewProjets/viewSpaceEveryday.php">space everyday</a></p>
-                     
-                    
-                </li>
+                <h1  class="underline">Niveau intermediaire</h1>
 
                 <li><h2 class = "sousTitle">Java</h2>
-                    <img class = "logo"  src="images/java.jpeg" alt="logo java ">
+                    <img class = "logo"  src="images/logo/java.png" alt="logo java ">
                     <h2 >Maitrise de java</h2>
-                    <p class = "textBlock">L'IUT a choisit JAVA comme langage de programmation principal. <br>C'est avec celui-ci que nous avons apprit <br>la programmation orienté objet et les principes SOLID</p>
+                    <div class="textBlock">
+                        <p>L'IUT a choisit JAVA comme langage de programmation principal.</p>
+                        <p>C'est avec celui-ci que nous avons apprit <br>la programmation orienté objet et les principes SOLID</p>
+                        <p>Apprendre ce langage nous a permit de réaliser des projets comme <br> un solver de tour d'hanoi ou même <br> recréer un jeu de carte (<a target="_blank" rel="noopener noreferrer" href="https://thomasprojects.works/viewProjets/viewBang.php">bang</a>)</p>
+                    </div>
                 </li>
 
                 <li><h2 class = "sousTitle">Langage bas niveau C</h2>
                     <img class = "logo"  src="images/C.png" alt="logo C ">
                     <h2 >Bonne bases en C</h2>
-                    <p class = "textBlock">Le C nous a été enseigné dans le cadre de l'apprentissage de la programmation bas niveau. <br> Cela nous a permit d'apprendre à manipuler <br>les pointeurs, créer des threads, allouer de la mémoire et bien plus ! <br> </p>
+                    <div class="textBlock">
+                        <p>Le C nous a été enseigné dans le cadre de l'apprentissage <br>de la programmation bas niveau.</p> 
+                        <p> Cela nous a permit d'apprendre à manipuler <br>les pointeurs, créer des threads, allouer de la mémoire, les IPC.</p>
+                        <p>Nous avons pu réaliser quelques projets très amusants comme <br>Un système de communication en morse avec des signaux <br> ou un système de chat client server avec <br> des sockets</p>
+                    </div>
                 </li>
+
+                <h1 class="underline">Initié</h1>
+
+                <li><h2 class = "sousTitle">React JS</h2>
+                    <img class = "logo"  src="images/logo/react.png" alt="logo react ">
+                    <h2 >Novice en react</h2>
+                    <div class = "textBlock">
+                        <p >Je n'ai pas encore beaucoup d'experience en react car je <br>n'ai pas eu le temps de beaucoup en faire. </p>
+                        <p>En effet j'ai commencé une formation sur le react et j'ai déjà appris quelques principes <br>comme le conditionnal rendering, les states, les props. </p>
+                        <p>Mais je n'ai pas eu le temps d'aller plus loin à cause d'autres projets en cours.</p>
+                        <p>J'ai pu faire quelques projets en react notamment l'application <a target="_blank" rel="noopener noreferrer" href="https://thomasprojects.works/viewProjets/viewSpaceEveryday.php">space everyday</a></p>
+                    </div>
+                </li>
+
+                <li><h2 class = "sousTitle">Dev-Ops</h2>
+                    <div class =".line-logo">
+                        <img id="logo-ling" src="/images/logo/gcp.png" alt="logo gcp">
+                        <img id="logo-ling" src="/images/logo/helm.png" alt="logo helm">
+                        <img id="logo-ling" src="/images/logo/kubernetes.png" alt="logo kubernetes">
+                        <img id="logo-ling" src="/images/logo/loki.png" alt="logo loki">
+                        <img id="logo-ling" src="/images/logo/prometheus.png" alt="logo prometheus">
+                        <img id="logo-ling" src="/images/logo/terraform.png" alt="logo terraform">
+                        <img id="logo-ling" src="/images/logo/docker.png" alt="logo docker">
+
+                    </div>                    
+                <h2 >Bases en Dev-Ops</h2>
+                <div class = "textBlock">
+                        <p >J'ai pu découvrir le Dev-Ops pendant le hackaton organisé par <br> Ca-gip en collaboration avec google</p>
+                        <p>C'est pendant cet évenement que j'ai pu pour la première fois <br>m'initier à la philosophie et aux outils Dev-Ops</p>
+                        <p>Cliquez <a target="_blank" rel="noopener noreferrer" href="https://thomasprojects.works/viewProjets/viewDevOps.php"> ici</a> pour en apprendre plus sur ce hackaton</p>
+                    </div>
+                </li>
+                
 
             </div>
 

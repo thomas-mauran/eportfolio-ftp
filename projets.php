@@ -47,6 +47,17 @@
 
                     <div class = "projet" data-aos="fade-up">
                         <div class = "description">
+                            <h2>Dev Ops Heroes</h2>
+                            <div class = "imageLien">
+                                <a href="/viewProjets/viewDevOps.php">
+                                    <img src="images/devopsHeroes/devops.jpg" alt="dev ops heroes">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "projet" data-aos="fade-up">
+                        <div class = "description">
                             <h2>Space everyday</h2>
                             <div class = "imageLien">
                                 <a href="/viewProjets/viewSpaceEveryday.php">

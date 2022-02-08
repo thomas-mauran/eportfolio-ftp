@@ -80,13 +80,13 @@
 
             <div class ="line">
                 <div class = "liens">
-                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/clement-gambier2/wediscuss_"><img class="imgLiens" src="/images/logoGithub.png" alt="logo github"></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://github.com/thomas-mauran/space-infos"><img class="imgLiens" src="/images/logoGithub.png" alt="logo github"></a>
                     <p>Lien github</p>
 
                 </div>
 
                 <div class = "liens">
-                    <a target="_blank" rel="noopener noreferrer" href="https://clement-gambier.fr/projets/wediscuss/index.php"><img class="imgLiens" src="/images/liveCode.png" alt="logo live code"></a>
+                    <a target="_blank" rel="noopener noreferrer" href="https://thomasprojects.works/projetsFiles/space-everyday/"><img class="imgLiens" src="/images/liveCode.png" alt="logo live code"></a>
                     <p>Lien live</p>
 
                 </div>
