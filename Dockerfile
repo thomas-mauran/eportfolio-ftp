@@ -1,4 +1,4 @@
-FROM centos:latest
+FROM alpine:latest
 WORKDIR /app
 MAINTAINER NewstarCorporation
 RUN yum -y install httpd
