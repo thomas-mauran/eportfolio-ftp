@@ -28,4 +28,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Docker build
         run: |
-          docker build -t dockerfile .
+          docker build -t thomasmauran/dockerfile:latest .
+      - name: Docker push
+        run: |
+          docker login -u thomasmauran -p ${{ secret.DOCKER_TOKEN }} && docker push thomasmauran/dockerfile:latest
