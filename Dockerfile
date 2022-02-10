@@ -6,7 +6,4 @@ COPY . /var/www/html/
 CMD [“/usr/sbin/httpd”, “-D”, “FOREGROUND”]
 EXPOSE 80
 
-FROM centos:latest
-COPY --from=build /app /app
-WORKDIR /app
 
