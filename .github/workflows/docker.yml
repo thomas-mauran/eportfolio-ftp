@@ -33,6 +33,6 @@ jobs:
         run: |
           docker login -u thomasmauran -p ${{ secrets.DOCKER_TOKEN }}
           docker push thomasmauran/dockerfile:latest
-          docker stop thomasmauran/dockerfile
-          docker rm thomasmauran/dockerfile
+          docker stop webPortfolio
+          docker rm webPortfolio
           docker run –d --name webPortfolio –p 80:80 thomasmauran/dockerfile 
