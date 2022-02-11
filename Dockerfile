@@ -1,4 +1,6 @@
-FROM ubuntu:latest
+FROM debian:latest
+RUN apt update
+RUN apt upgrade
 RUN apt-get install -y apache2
 RUN apt-get install -y apache2-utils
 EXPOSE 80
