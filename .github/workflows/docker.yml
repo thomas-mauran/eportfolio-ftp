@@ -32,5 +32,5 @@ jobs:
       - name: Docker push
 
         run: |
-          docker stop portfolio
+          
           docker run –d --name portfolio –p 80:80 thomasmauran/portfolio 
