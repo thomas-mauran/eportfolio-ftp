@@ -31,4 +31,4 @@ jobs:
           docker build -t thomasmauran/dockerfile:latest .
       - name: Docker push
         run: |
-          docker login -u thomasmauran -p ${{ secret.DOCKER_TOKEN }} && docker push thomasmauran/dockerfile:latest
+          docker login -u thomasmauran -p ${{ secrets.DOCKER_TOKEN }} && docker push thomasmauran/dockerfile:latest
