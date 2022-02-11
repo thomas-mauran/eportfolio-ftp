@@ -28,9 +28,12 @@ jobs:
       # Runs a single command using the runners shell
       - name: Docker build
         run: |
-          docker build -t thomasmauran/portfolio:latest .
+          docker build -t thomasmauran/dockerfile:latest .
       - name: Docker push
-
+      #          docker stop webPortfolio
+     #   docker rm webPortfolio
         run: |
-          
-          docker run –d –p 80:80 thomasmauran/portfolio 
+          docker login -u thomasmauran -p ${{ secrets.DOCKER_TOKEN }}
+          docker push thomasmauran/dockerfile:latest
+
+          docker run –d --name webPortfolio –p 80:80 thomasmauran/dockerfile 
