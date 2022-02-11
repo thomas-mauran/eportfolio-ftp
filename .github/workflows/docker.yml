@@ -35,4 +35,4 @@ jobs:
           docker push thomasmauran/dockerfile:latest
           docker stop thomasmauran/dockerfile
           docker rm thomasmauran/dockerfile
-          docker run –d –p 80:80 thomasmauran/dockerfile 
+          docker run –d --name webPortfolio –p 80:80 thomasmauran/dockerfile 
