@@ -33,5 +33,4 @@ jobs:
 
         run: |
           docker stop portfolio
-          docker rm portfolio
           docker run –d --name portfolio –p 80:80 thomasmauran/portfolio 
