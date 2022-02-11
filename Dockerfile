@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM alpine:latest
 RUN apt update
 RUN apt upgrade
 RUN apt-get install -y apache2
