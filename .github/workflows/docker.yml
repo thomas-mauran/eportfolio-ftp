@@ -34,5 +34,4 @@ jobs:
      #   docker rm webPortfolio
         run: |
           docker login -u thomasmauran -p ${{ secrets.DOCKER_TOKEN }}
-          docker push thomasmauran/dockerfile:latest
           docker run -h thomasprojects.works thomasmauran/dockerfile 
