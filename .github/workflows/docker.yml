@@ -32,7 +32,9 @@ jobs:
         run: |
           docker image build -t nginx-portfolio-image .
       - name: Docker push
+  #docker login -u thomasmauran -p ${{ secrets.DOCKER_TOKEN }}
+       #   docker run -h thomasprojects.works thomasmauran/dockerfile 
 
         run: |
-          docker login -u thomasmauran -p ${{ secrets.DOCKER_TOKEN }}
-          docker run -h thomasprojects.works thomasmauran/dockerfile 
+          docker container run --name nginx-portfolio -P -d nginx-portfolio-image
+          
