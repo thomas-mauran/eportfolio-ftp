@@ -36,5 +36,6 @@ jobs:
        #   docker run -h thomasprojects.works thomasmauran/dockerfile 
 
         run: |
+          docker rm nginx-portfolio
           docker container run --name nginx-portfolio -P -d nginx-portfolio-image
           
