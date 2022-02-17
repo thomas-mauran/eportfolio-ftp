@@ -1,5 +1,5 @@
 FROM nginx
 COPY . /usr/share/nginx/html
-#CMD "apt-get install php5-common php5-cli php5-fpm"
-#CMD "service php5-fpm restart"
-#CMD "sudo service nginx restart"
+RUN apt-get install php5-common php5-cli php5-fpm
+RUN service php5-fpm restart
+RUN service nginx restart
