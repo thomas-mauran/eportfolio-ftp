@@ -1,4 +1,4 @@
-FROM php:apache
+FROM php:7-fpm-alpine
 COPY . /var/www/html
 RUN apt-get update
 RUN apt-get install -y ssl-cert
