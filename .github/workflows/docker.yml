@@ -38,6 +38,6 @@ jobs:
         run: |
           docker stop nginx-portfolio
           docker rm nginx-portfolio
-          docker container run --name nginx-portfolio -P -d nginx-portfolio-image
+          docker container run --name nginx-portfolio -p 80:80 -d nginx-portfolio-image
           docker start nginx-portfolio
           
