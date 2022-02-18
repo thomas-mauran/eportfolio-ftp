@@ -30,7 +30,7 @@
                     A la fin du protocole les pompiers peuvent donc envoyer un rapport d’intervention, généré par l’application et envoyé par mail, regroupant toutes les actions réalisées/effectuées.</p> 
                     <p>L’application permet aussi d’accéder à un hub d'applications utiles et à un annuaire regroupant les numéros de certains médecins, pompiers et hôpitaux.</p>
 
-                    <p> Nous avons au final créer une interface web pour que les pompier puisse controler le contenu de l'application. 
+                    <p> Nous avons au final crée une interface web pour que les pompiers puissent contrôler le contenu de l'application. 
                     Nous avons pu refactoriser toute l'application pour les prochains étudiants. L'application a reçu une refonte graphique
                     et des nouvelles fonctionnalités 
                     </p>

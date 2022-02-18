@@ -21,17 +21,17 @@
                 </div>
                 <div class = "description">
                     <p> Dans le cadre de notre projet S3 de prog web nous avons réalisé un site web de 
-                    ecommerce. Celui ci devait resepcter le MVC apprit en TD</p>
-                    <p>Notre site comportait un pannel admin sécurisé et seulement accéssible 
-                    pour certains utilisateur, un système de panier automatisé grace aux sessions, 
-                    des recherches par catégories possible et bien d'autres fonctions.
+                    ecommerce. Celui-ci devait respecter les méthodes MVC apprient en TD</p>
+                    <p>Notre site comportait un panel admin sécurisé et seulement accessible 
+                    pour certains utilisateurs, un système de panier automatisé grace aux sessions, 
+                    des recherches par catégories possibles et bien d'autres fonctions.
                     </p>
-                    <p>Ce projet nous a principalement permit de nous familiariser avec le MVC
-                    car nous etions déjà novice en php avec un autre étudiant à la suite du projet
+                    <p>Ce projet nous a principalement permis de nous familiariser avec le MVC
+                    car nous étions déjà novice en php avec un autre étudiant à la suite du projet
                     <a href="https://thomasprojects.works/viewProjets/viewWediscuss.php">We discuss</a>
                     </p>
-                    <p>Vous pouvez essayer le site web par vous même en cliquant sur le lien live
-                    sous le carroussel</p>
+                    <p>Vous pouvez essayer le site web par vous-même en cliquant sur le lien live
+                    sous le carrousel</p>
                        
 
                 </div>

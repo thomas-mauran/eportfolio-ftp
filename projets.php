@@ -45,6 +45,32 @@
             <h1>2022</h1>
             <div class = "projetLine">
 
+                <div class = "projet" data-aos="fade-up">
+                    <div class = "description">
+                        <h2>(En cours) <br>Pipeline CI / CD pour <br>mon e-portfolio</h2>
+                        <div class = "imageLien">
+                            <a href="/viewProjets/coming-soon.php">
+                                <img src="images/coming-soon.jpeg" alt="dev ops heroes">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                
+                </div>
+            <div class = "projetLine">
+
+                    <div class = "projet" data-aos="fade-up">
+                        <div class = "description">
+                            <h2>(En cours) <br>Site vitrine pour drop de NFT</h2>
+                            <div class = "imageLien">
+                                <a href="/viewProjets/coming-soon.php">
+                                    <img src="images/coming-soon.jpeg" alt="dev ops heroes">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
                     <div class = "projet" data-aos="fade-up">
                         <div class = "description">
                             <h2>Dev Ops Heroes</h2>

@@ -63,7 +63,7 @@
                     <img class = "logo logo-big-solo"  src="images/php.png" alt="logo php MySql">
                     <h2 >Bonne maitrise de php / mysql</h2>
                     <div class="textBlock">
-                        <p>Ma formation me permet de travailler avec des requetes <br> SQL complexe tout en normalisant les bases de données que j'utilise</p>
+                        <p>Ma formation me permet de travailler avec des requêtes <br> SQL complexe tout en normalisant les bases de données que j'utilise</p>
                         <p>J'ai pu utiliser php Mysql dans de nombreux projets comme <br><a target="_blank" rel="noopener noreferrer" href="https://thomasprojects.works/viewProjets/viewWediscuss.php">We discuss</a> ou <a target="_blank" rel="noopener noreferrer" href="https://thomasprojects.works/viewProjets/viewEcommerce.php">un site de vente de nft</a></p>
                         
                     </div>
@@ -75,9 +75,9 @@
                     <img class = "logo"  src="images/logo/java.png" alt="logo java ">
                     <h2 >Maitrise de java</h2>
                     <div class="textBlock">
-                        <p>L'IUT a choisit JAVA comme langage de programmation principal.</p>
-                        <p>C'est avec celui-ci que nous avons apprit <br>la programmation orienté objet et les principes SOLID</p>
-                        <p>Apprendre ce langage nous a permit de réaliser des projets comme <br> un solver de tour d'hanoi ou même <br> recréer un jeu de carte (<a target="_blank" rel="noopener noreferrer" href="https://thomasprojects.works/viewProjets/viewBang.php">bang</a>)</p>
+                        <p>L'IUT a choisi JAVA comme langage de programmation principal.</p>
+                        <p>C'est avec celui-ci que nous avons appris <br>la programmation orienté objet et les principes SOLID</p>
+                        <p>Apprendre ce langage nous a permis de réaliser des projets comme <br> un solver de tour d'hanoi ou même <br> recréer un jeu de cartes (<a target="_blank" rel="noopener noreferrer" href="https://thomasprojects.works/viewProjets/viewBang.php">bang</a>)</p>
                     </div>
                 </li>
 
@@ -86,8 +86,8 @@
                     <h2 >Bonne bases en C</h2>
                     <div class="textBlock">
                         <p>Le C nous a été enseigné dans le cadre de l'apprentissage <br>de la programmation bas niveau.</p> 
-                        <p> Cela nous a permit d'apprendre à manipuler <br>les pointeurs, créer des threads, allouer de la mémoire, les IPC.</p>
-                        <p>Nous avons pu réaliser quelques projets très amusants comme <br>Un système de communication en morse avec des signaux <br> ou un système de chat client server avec <br> des sockets</p>
+                        <p> Cela nous a permis d'apprendre à manipuler <br>les pointeurs, créer des threads, allouer de la mémoire, les IPC.</p>
+                        <p>Nous avons pu réaliser quelques projets très amusants comme <br>Un système de communication en morse avec des signaux <br> ou un système de chat client serveur avec <br> des sockets</p>
                     </div>
                 </li>
 
@@ -97,7 +97,7 @@
                     <img class = "logo"  src="images/logo/react.png" alt="logo react ">
                     <h2 >Novice en react</h2>
                     <div class = "textBlock">
-                        <p >Je n'ai pas encore beaucoup d'experience en react car je <br>n'ai pas eu le temps de beaucoup en faire. </p>
+                        <p >Je n'ai pas encore beaucoup d'expérience en react car je <br>n'ai pas eu le temps de beaucoup en faire. </p>
                         <p>En effet j'ai commencé une formation sur le react et j'ai déjà appris quelques principes <br>comme le conditionnal rendering, les states, les props. </p>
                         <p>Mais je n'ai pas eu le temps d'aller plus loin à cause d'autres projets en cours.</p>
                         <p>J'ai pu faire quelques projets en react notamment l'application <a target="_blank" rel="noopener noreferrer" href="https://thomasprojects.works/viewProjets/viewSpaceEveryday.php">space everyday</a></p>
@@ -118,7 +118,7 @@
                 <h2 >Bases en Dev-Ops</h2>
                 <div class = "textBlock">
                         <p >J'ai pu découvrir le Dev-Ops pendant le hackaton organisé par <br> Ca-gip en collaboration avec google</p>
-                        <p>C'est pendant cet évenement que j'ai pu pour la première fois <br>m'initier à la philosophie et aux outils Dev-Ops</p>
+                        <p>C'est pendant cet événement que j'ai pu pour la première fois <br>m'initier à la philosophie et aux outils Dev-Ops</p>
                         <p>Cliquez <a target="_blank" rel="noopener noreferrer" href="https://thomasprojects.works/viewProjets/viewDevOps.php"> ici</a> pour en apprendre plus sur ce hackaton</p>
                     </div>
                 </li>

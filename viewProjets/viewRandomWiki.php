@@ -20,7 +20,7 @@
                 </div>
                 <div class = "description">
                     <p>
-                        Petit projet pour avoir un accès facile a des pages aléatoires de wikipédia.
+                        Petit projet pour avoir un accès facile à des pages aléatoires de wikipédia.
                     </p>
                     <p>
                         Vous pouvez accéder au code en cliquant sur le lien github ou accéder au projet avec le lien live.                    

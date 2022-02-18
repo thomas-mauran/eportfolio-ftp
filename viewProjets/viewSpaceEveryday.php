@@ -22,14 +22,14 @@
                 <div class = "description">
                     <p>
                        Pour commencer à apprendre react j'ai réalisé cette petite application qui utilise
-                       l'api APOD de la nasa pour accéder à des informations et des images tout les jours
+                       l'api APOD de la nasa pour accéder à des informations et des images tous les jours
                        sur l'espace.
                     </p>
                     <p>Cette petite application fonctionne très bien en format smartphone. Vous pouvez l'ajouter
                     à votre écran d'accueil
                     </p>
                     <p>Pour visualiser le projet en live cliquez sur le bouton lien live. Vous pouvez aussi accéder
-                    aux code source de l'application sur le lien github</p>
+                    au code source de l'application sur le lien github</p>
 
                 </div>
             </div>

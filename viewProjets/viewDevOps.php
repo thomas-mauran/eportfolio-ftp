@@ -22,18 +22,20 @@
                 <div class = "description">
                     <p>
                         Cette année j'ai pu participer au hackaton <a target="_blank" rel="noopener noreferrer" href="https://www.hackathon-devops-cagip.fr/">Dev ops Heroes</a>
-                        organisé par Ca-gip.
+                        organisé par Ca-gip du 4 au 6 février.
                     </p>
+
                     <p>
                         L'objectif : "Pilotez vos infrastructures et gérez leur supervision, triomphez du déploiement instantané d’une application résiliente, réactive aux attaques, 
                         aux incidents et aux pics de charge. Comment ? En vous appuyant sur les solutions de l’entreprise et en expérimentant les technologies que le 
                         Cloud peut vous offrir. Vous devrez user de toutes vos connaissances et de tous vos talents pour faire partie des « DevOps Heroes » de demain !"
                     </p>
+                    <p></p>
                     <p>
-                        Ce hackaton m'a permit de découvrir des personnes incroyable tout en me familiarisant avec les outils et les pratiques Dev Ops.
+                        Ce hackaton m'a permis de découvrir des personnes incroyables tout en me familiarisant avec les outils et les pratiques Dev Ops.
                     </p>
                     <p>
-                        Notre équipe à remporté la 1ère place en mettant en place un système de déploiement d'infrastructure automatisé grace à Terraform et Helm.
+                        Notre équipe a remporté la 1re place en mettant en place un système de déploiement d'infrastructure automatisé grace à Terraform et Helm.
                         Vous pouvez trouver une démo <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=Y-6wPEAAB8Q">ici</a>
                     </p>
             
