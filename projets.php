@@ -47,7 +47,7 @@
 
                 <div class = "projet" data-aos="fade-up">
                     <div class = "description">
-                        <h2>(En cours) <br>Pipeline CI / CD pour <br>mon e-portfolio</h2>
+                        <h2>(En cours) <br>Site vitrine pour drop de NFT</h2>
                         <div class = "imageLien">
                             <a href="/viewProjets/coming-soon.php">
                                 <img src="images/coming-soon.jpeg" alt="dev ops heroes">
@@ -62,10 +62,10 @@
 
                     <div class = "projet" data-aos="fade-up">
                         <div class = "description">
-                            <h2>(En cours) <br>Site vitrine pour drop de NFT</h2>
+                            <h2>Pipeline CI/CD avec <br>github action et docker</h2>
                             <div class = "imageLien">
-                                <a href="/viewProjets/coming-soon.php">
-                                    <img src="images/coming-soon.jpeg" alt="dev ops heroes">
+                                <a href="/viewProjets/viewCICDportfolio.php">
+                                    <img src="images/CICD-eportfolio/CICD-pipeline.png" alt="Pipeline CI CD">
                                 </a>
                             </div>
                         </div>
