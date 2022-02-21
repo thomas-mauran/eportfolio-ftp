@@ -7,8 +7,6 @@ on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
     branches: [ master ]
-  pull_request:
-    branches: [ master ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -36,8 +34,8 @@ jobs:
        #   docker run -h thomasprojects.works thomasmauran/dockerfile 
 
         run: |
-          docker stop nginx-portfolio
-          docker rm nginx-portfolio
+          docker stop portfolio
+          docker rm portfolio
           docker container run --name portfolio -p 80:80 -p 443:443 -d portfolio-image
           docker start portfolio
           
