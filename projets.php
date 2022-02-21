@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Projets</title>
-    <link href="/css/navBar.css" rel="stylesheet" type="text/css">
-    <link href="/css/projets.css" rel="stylesheet" type="text/css">
-    <link href="/css/style.css" rel="stylesheet" type="text/css">
+    <link href="/eportfolio-ftp/css/navBar.css" rel="stylesheet" type="text/css">
+    <link href="/eportfolio-ftp/css/projets.css" rel="stylesheet" type="text/css">
+    <link href="/eportfolio-ftp/css/style.css" rel="stylesheet" type="text/css">
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
@@ -49,7 +49,7 @@
                     <div class = "description">
                         <h2>(En cours) <br>Pipeline CI / CD pour <br>mon e-portfolio</h2>
                         <div class = "imageLien">
-                            <a href="/viewProjets/coming-soon.php">
+                            <a href="/eportfolio-ftp/viewProjets/coming-soon.php">
                                 <img src="images/coming-soon.jpeg" alt="dev ops heroes">
                             </a>
                         </div>
