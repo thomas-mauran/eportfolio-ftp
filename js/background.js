@@ -1,11 +1,11 @@
 circleList = []
-let circleNumber = 19
+let circleNumber = window.innerWidth / 50
 
 
 function setup(){
-    createCanvas(windowWidth,windowHeight)
-    circleCenter = new Circle(windowWidth/2, windowHeight/2)
-    circleList.push(circleCenter)   
+    canvas = createCanvas(window.innerWidth,window.innerHeight)
+    canvas.position(0,0)
+    canvas.style('z-index', '-1')
     for (i = 0; i < circleNumber; i ++){
       circle = new Circle()
       circleList.push(circle)
@@ -31,4 +31,8 @@ function draw() {
     }
 
   }
+}
+
+function windowResized(){
+    resizeCanvas(window.innerWidth,window.innerHeight)
 }

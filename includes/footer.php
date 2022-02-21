@@ -1,4 +1,4 @@
 <footer>
     <p>Thomas Mauran ©</p>
-    <p>Site entierement realisé a la main et hebergé sur mon raspberry pi ! </p>
+    <p>Site entièrement réalisé à la main et hébergé dans un conteneur docker sur mon Raspberry Pi ! </p>
 </footer>

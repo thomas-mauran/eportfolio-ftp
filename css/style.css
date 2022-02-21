@@ -1,58 +1,59 @@
-@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Karla:wght@300&display=swap');
-
-*{
-    padding: 0;
-    box-sizing: border-box;
-    margin: 0;
-    font-family: 'karla', serif;
-    color: seashell;
-
-
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@200;300;500&display=swap");
+* {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "karla", serif;
+  color: seashell;
+  font-weight: 100;
 }
 
-h1{
-    font-family: 'karla', sans-serif;
+h1 {
+  font-family: "Karla", sans-serif;
+  font-weight: 400;
 }
 
-body{
-    margin: 0;
+body {
+  margin: 0;
 
-    width: 100%;
-    height: 100%;
-    background: -webkit-gradient(linear, left top, left bottom, from(#020C12), to(#062337)) fixed;
-    background-repeat: no-repeat;
-
+  width: 100%;
+  height: 100%;
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(#020c12),
+      to(#062337)
+    )
+    fixed;
+  background-repeat: no-repeat;
 }
 
-#main{
-    z-index: 2;
-    position: absolute;
-    color: aliceblue;
-
-
+#main {
+  z-index: 2;
+  position: absolute;
+  color: aliceblue;
 }
 
-#canvasForHTML{
-    z-index: -2;
-    position: absolute;
+#canvasForHTML {
+  z-index: -4;
+  position: absolute;
 }
 
-#container{
-    position: relative;
-    text-align: center;
-    
-    display: flex;
-    justify-content: center;
+#container {
+  position: relative;
+  text-align: center;
 
-
+  display: flex;
+  justify-content: center;
 }
 
-footer{
-    text-align: center;
-    margin-bottom: 2%;
+footer {
+  text-align: center;
+  margin-bottom: 2%;
 }
 
-footer p{
-    margin-top: 1%;
+footer p {
+  margin-top: 1%;
 }
