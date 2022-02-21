@@ -1,7 +1,4 @@
-<?php 
-$DS = DIRECTORY_SEPARATOR;
-$ROOT_FOLDER = __DIR__ . $DS . "..";
-?>
+
 
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -20,10 +17,10 @@ $ROOT_FOLDER = __DIR__ . $DS . "..";
 
     <div class="nav-links">
         <ul >
-            <li><a class = "link" href="/eportfolio-ftp/index.php">Home</a></li>
-            <li><a class = "link" href="/eportfolio-ftp/projets.php">Projets</a></li>
-            <li><a class = "link" href="/eportfolio-ftp/aPropos.php">About</a></li>
-            <li><a class = "link" href="/eportfolio-ftp/contact.php">Contact</a></li>
+            <li><a class = "link" href="/index.php">Home</a></li>
+            <li><a class = "link" href="/projets.php">Projets</a></li>
+            <li><a class = "link" href="/aPropos.php">About</a></li>
+            <li><a class = "link" href="/contact.php">Contact</a></li>
         </ul>
     </div>
 
