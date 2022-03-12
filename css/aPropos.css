@@ -20,7 +20,7 @@ canvas {
   flex-direction: column;
   align-items: center;
 
-  width: 80%;
+  width: 90%;
 }
 
 .container {
@@ -74,6 +74,11 @@ li {
 
 #logoIUT {
   width: 300px;
+}
+
+#nodeLogo{
+  min-width: 500px;
+  width: 70%;
 }
 
 #favMangas {
