@@ -67,7 +67,19 @@
                         <p>J'ai pu utiliser php Mysql dans de nombreux projets comme <br><a target="_blank" rel="noopener noreferrer" href="https://thomasprojects.works/viewProjets/viewWediscuss.php">We discuss</a> ou <a target="_blank" rel="noopener noreferrer" href="https://thomasprojects.works/viewProjets/viewEcommerce.php">un site de vente de nft</a></p>
                         
                     </div>
+
+                    <img class = "logo logo-big-solo"  src="images/logo/nodeJs.png" alt="logo node" id="nodeLogo">
+                    <h2 >Bonne maitrise de php / mysql</h2>
+                    <div class="textBlock">
+                        <p>Je me suis formé moi même à node js et mongo db grace à open classroom</p>
+                        <p>Je suis actuellement en train de coder une application de quiz en ligne (Sphinx) <br>en node js et avec mongodb</p>
+                        <p>Vous pouvez retrouver le code source de cette application encore en développement <a href="https://github.com/SphinxQuiz">ici</a> pour voir ma progression </p>
+                        <p>(le repo backend est pour l'instant en privé)</p>
+                    </div>
+
                 </li>
+
+                
 
                 <h1  class="underline">Niveau intermediaire</h1>
 

@@ -47,10 +47,21 @@
 
                 <div class = "projet" data-aos="fade-up">
                     <div class = "description">
+                        <h2>(En cours) <br>Sphinx application de quiz <br> en node js / mongo db</h2>
+                        <div class = "imageLien">
+                            <a href="/viewProjets/coming-soon.php">
+                                <img src="images/coming-soon.jpeg" alt="Sphinx">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class = "projet" data-aos="fade-up">
+                    <div class = "description">
                         <h2>(En cours) <br>Site vitrine pour drop de NFT</h2>
                         <div class = "imageLien">
                             <a href="/viewProjets/coming-soon.php">
-                                <img src="images/coming-soon.jpeg" alt="dev ops heroes">
+                                <img src="images/coming-soon.jpeg" alt="Nft">
                             </a>
                         </div>
                     </div>
