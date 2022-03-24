@@ -34,8 +34,9 @@ jobs:
        #   docker run -h thomasprojects.works thomasmauran/dockerfile 
 
         run: |
+
           docker stop portfolio
           docker rm portfolio
-          docker container run --name portfolio -p 80:80 -p 443:443 -d portfolio-image
+          docker container run --name portfolio -p 2247:80 -p 2248:443 -d portfolio-image
           docker start portfolio
           
